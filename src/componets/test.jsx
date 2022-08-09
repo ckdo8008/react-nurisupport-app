@@ -3,7 +3,8 @@ import '../Img.css';
 import '@toast-ui/editor/dist/toastui-editor-viewer.css';
 import '@toast-ui/chart/dist/toastui-chart.css';
 import { Viewer } from '@toast-ui/react-editor';
-import { slide as Menu } from 'react-burger-menu';
+import { slide as Menu, slide } from 'react-burger-menu';
+import axios from 'axios'
 
 import BASE from '../markdown/base.md';
 import HELP from '../markdown/help.md';
@@ -23,81 +24,101 @@ const chartOptions = {
     minHeight: 600,
     maxHeight: 600,
   };
-  
+
 class Test extends Component {
     editorRef = React.createRef();
-    constructor() {
+
+    constructor(props) {
         super();
-        
+    }
+
+    closeMenu () {
+        let element = document.getElementsByClassName("bm-overlay")[0];
+        element.click();
     }
 
     componentDidMount() {
-        this.index();
+        if (this.first) return; 
+        this.first = true;
+        axios.get(INDEX)
+        .then((res) => {
+            this.editorRef.current.getInstance().setMarkdown(res.data);
+        })
+        .catch((err) => {console.log(err)});
     }
 
     index() {
-        fetch(INDEX)
-        .then(r => r.text())
-        .then(text => {
-            this.editorRef.current.getInstance().setMarkdown(text);
-        });
+        axios.get(INDEX)
+        .then((res) => {
+            this.editorRef.current.getInstance().setMarkdown(res.data);
+        })
+        .catch((err) => {console.log(err)});
+        this.closeMenu ();
     }
     base() {
-        fetch(BASE)
-        .then(r => r.text())
-        .then(text => {
-            this.editorRef.current.getInstance().setMarkdown(text);
-        });
+        axios.get(BASE)
+        .then((res) => {
+            this.editorRef.current.getInstance().setMarkdown(res.data);
+        })
+        .catch((err) => {console.log(err)});
+        this.closeMenu ();
     }
     help() {
-        fetch(HELP)
-        .then(r => r.text())
-        .then(text => {
-            this.editorRef.current.getInstance().setMarkdown(text);
-        });
+        axios.get(HELP)
+        .then((res) => {
+            this.editorRef.current.getInstance().setMarkdown(res.data);
+        })
+        .catch((err) => {console.log(err)});
+        this.closeMenu ();
     }
     macro() {
-        fetch(MACRO)
-        .then(r => r.text())
-        .then(text => {
-            this.editorRef.current.getInstance().setMarkdown(text);
-        });
+        axios.get(MACRO)
+        .then((res) => {
+            this.editorRef.current.getInstance().setMarkdown(res.data);
+        })
+        .catch((err) => {console.log(err)});
+        this.closeMenu ();
     }
     multiple() {
-        fetch(MULTIPLE)
-        .then(r => r.text())
-        .then(text => {
-            this.editorRef.current.getInstance().setMarkdown(text);
-        });
+        axios.get(MULTIPLE)
+        .then((res) => {
+            this.editorRef.current.getInstance().setMarkdown(res.data);
+        })
+        .catch((err) => {console.log(err)});
+        this.closeMenu ();
     }
     search() {
-        fetch(SEARCH)
-        .then(r => r.text())
-        .then(text => {
-            this.editorRef.current.getInstance().setMarkdown(text);
-        });
+        axios.get(SEARCH)
+        .then((res) => {
+            this.editorRef.current.getInstance().setMarkdown(res.data);
+        })
+        .catch((err) => {console.log(err)});
+        this.closeMenu ();
     }
     setting() {
-        fetch(SETTING)
-        .then(r => r.text())
-        .then(text => {
-            this.editorRef.current.getInstance().setMarkdown(text);
-        });
+        axios.get(SETTING)
+        .then((res) => {
+            this.editorRef.current.getInstance().setMarkdown(res.data);
+        })
+        .catch((err) => {console.log(err)});
+        this.closeMenu ();
     }
     single() {
-        fetch(SINGLE)
-        .then(r => r.text())
-        .then(text => {
-            this.editorRef.current.getInstance().setMarkdown(text);
-        });
+        axios.get(SINGLE)
+        .then((res) => {
+            this.editorRef.current.getInstance().setMarkdown(res.data);
+        })
+        .catch((err) => {console.log(err)});
+        this.closeMenu ();
     }
 
     locale() {
-        fetch(LOCALE)
-        .then(r => r.text())
-        .then(text => {
-            this.editorRef.current.getInstance().setMarkdown(text);
-        });
+        axios.get(LOCALE)
+        .then((res) => {
+            this.editorRef.current.getInstance().setMarkdown(res.data);
+        })
+        .catch((err) => {console.log(err)});
+        this.closeMenu ();
     }
 
     render() {
