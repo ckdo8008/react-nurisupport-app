@@ -15,6 +15,7 @@ import MULTIPLE from '../markdown/multiple.md';
 import SEARCH from '../markdown/search.md';
 import SETTING from '../markdown/setting.md';
 import SINGLE from '../markdown/single.md';
+import TERMINAL from '../markdown/terminal.md';
 import chart from '@toast-ui/editor-plugin-chart';
 import * as Icon from 'react-bootstrap-icons';
 
@@ -95,6 +96,14 @@ class Test extends Component {
         .catch((err) => {console.log(err)});
         this.closeMenu ();
     }
+    terminal() {
+        axios.get(TERMINAL)
+        .then((res) => {
+            this.editorRef.current.getInstance().setMarkdown(res.data);
+        })
+        .catch((err) => {console.log(err)});
+        this.closeMenu ();
+    }
     setting() {
         axios.get(SETTING)
         .then((res) => {
@@ -152,6 +161,10 @@ class Test extends Component {
 
                     <a className="menu-item" href="#" onClick={() => this.search()}>
                     <Icon.CaretRightSquareFill /> 장비조회
+                    </a>
+
+                    <a className="menu-item" href="#" onClick={() => this.terminal()}>
+                    <Icon.CaretRightSquareFill /> 터미날
                     </a>
 
                     <a className="menu-item" href="#" onClick={() => this.help()}>

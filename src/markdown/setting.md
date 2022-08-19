@@ -1,5 +1,6 @@
 # 설정
 제품의 기본 환경정보를 설정합니다.
+장비 종류(SM, RSA, MC)에 따라서 설정 메뉴는 변경됩니다.
 ![Start_popup](./Images/02_Setting.png)
 
 
