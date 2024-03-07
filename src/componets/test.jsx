@@ -130,6 +130,10 @@ class Test extends Component {
         this.closeMenu ();
     }
 
+    choose() {
+        navigator('/choose')
+    }
+
     render() {
         return (
             <>
@@ -174,14 +178,20 @@ class Test extends Component {
                     <a className="menu-item" href="#" onClick={() => this.locale()}>
                     <Icon.CaretRightSquareFill /> 언어설정
                     </a>
+
+                    <a className="menu-item" href="/choose" >
+                    <Icon.CaretRightSquareFill /> 구동기 선정
+                    </a>
                 </Menu>
             </div>
             <div id="page-wrap">
-                <Viewer 
-                height="350px"
-                plugins={[[chart, chartOptions]]} 
-                ref={this.editorRef} 
-                usageStatistics={false}/>
+                <div id="test-wrap">
+                    <Viewer 
+                    height="350px"
+                    plugins={[[chart, chartOptions]]} 
+                    ref={this.editorRef} 
+                    usageStatistics={false}/>
+                </div>
             </div>
             </>
         );

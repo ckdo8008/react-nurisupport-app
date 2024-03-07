@@ -5,4 +5,6 @@ Allow: /
 Allow: /static/js
 Allow: /static/css
 Allow: /static/media
+Allow: /choose
+Allow: /choose/joint
 Sitemap: https://support.nurirobot.info/sitemap.xml

@@ -4,7 +4,7 @@ body {
 }
 
 #App {
-  font-family: sans-serif;
+  font-family: NanumBarunGothic, sans-serif;
   height: 100vh;
 }
 
@@ -12,6 +12,9 @@ body {
   padding-left: 60px;
   padding-right: 100px;
   overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .bm-item {
@@ -63,4 +66,35 @@ body {
 
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (min-width: 300px){
+  #test-wrap {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 640px){
+  #test-wrap {
+    width: 500px;
+  }
+}
+@media only screen and (min-width: 768px){
+  #test-wrap {
+    width: 600px;
+  }
+}
+@media only screen and (min-width: 1024px){
+  #test-wrap {
+    width: 860px;
+  }
+}
+@media only screen and (min-width: 1280px){
+  #test-wrap {
+    width: 1100px;
+  }
+}
+@media only screen and (min-width: 1536px){
+  #test-wrap {
+    width: 1400px;
+  }
 }
