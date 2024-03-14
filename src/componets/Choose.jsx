@@ -94,6 +94,7 @@ const Choose = (props) => {
   const [maxSpeed, setMaxspeed] = useState(0);
   const [stepUrl, setStepUrl] = useState('');
   const [dxfUrl, setDxfUrl] = useState('');
+  const [stlUrl, setStlUrl] = useState('');
 
   const [open, setOpen] = useState(false);
   const [maxWidth, setMaxWidth] = useState('xl');
@@ -102,13 +103,14 @@ const Choose = (props) => {
   const [dialogName, setDialogName] = useState('');
   const [dialogbuyurl, setDialogBuyurl] = useState('');
 
-  const handleClickOpen = (arg, dxf, buy, name) => {
+  const handleClickOpen = (arg, dxf, buy, name, stl) => {
     console.log(arg, dxf, buy, name);
 
     setStepUrl(arg);
     setDxfUrl(dxf);
     setDialogBuyurl(buy);
     setDialogName(name);
+    setStlUrl(stl);
     setOpen(true);
   };
 
@@ -494,7 +496,8 @@ const Choose = (props) => {
                     item['step-url'] ? item['step-url'] : '', 
                     item['dxf-url'] ? item['dxf-url'] : '',
                     item['nurirobot-url'] ? item['nurirobot-url']: '',
-                    item.name ? item.name : '');
+                    item.name ? item.name : '',
+                    item['stl-url'] ? item['stl-url'] : '');
                 }}
                 srcSet={item.picture[0]}
                 src={item.picture[0]}
@@ -833,7 +836,7 @@ const Choose = (props) => {
               <Box sx={{height: '100%', mr: '10px'}} minSize='200'>
                 {/* <Box fullWidth height={'100%'} sx={{background: red[100]}}/> */}
                 {stepUrl ?
-                <ViewerWithUI url={stepUrl} fullWidth height={'100%'} loaded={onLoaded} />
+                <ViewerWithUI url={stepUrl} stlurl={stlUrl} fullWidth height={'100%'} loaded={onLoaded} />
                 :<Typography variant="h6" component="div" sx={{color: '#fff'}}>
                 등록된 파일 없음
               </Typography>
@@ -852,7 +855,7 @@ const Choose = (props) => {
           <Box sx={{overflow: 'auto'}}>
             <Box fullWidth height={400}>
               {stepUrl ?
-                  <MobileViewerWithUI url={stepUrl} loaded={onLoaded} />
+                  <MobileViewerWithUI url={stepUrl} stlurl={stlUrl} loaded={onLoaded} />
                   :<Typography variant="h6" component="div" sx={{color: '#fff'}}>
                   등록된 파일 없음
                 </Typography>

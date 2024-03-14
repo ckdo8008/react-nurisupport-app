@@ -7,6 +7,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202312/061fd48c012c4a805ae1aaa27dc1ff4a.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -65,6 +66,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202402/1f6d992cb1a0badfeee99878fdd90b91.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -122,6 +124,7 @@
       "https://www.robotcourt.com/web/product/big/202305/474bd71dfb12b726543703c0e64dd10a.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -179,6 +182,7 @@
       "https://www.robotcourt.com/web/product/big/202401/a163a8adbe741b61c7c89287d6e89d65.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA112_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -237,6 +241,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202312/153dbae8b84636f20bd01a07775cf18f.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59E_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59e_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59E_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -295,6 +300,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202402/4deda53cee09e81fd49f0b527d591bde.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60E_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60e_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60E_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -352,6 +358,7 @@
       "https://www.robotcourt.com/web/product/big/202305/b8483633a6da3f2ca0f60e866eeec6cc.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93E_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93e_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93E_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -409,6 +416,7 @@
       "https://www.robotcourt.com/web/product/big/202305/aef028cb3ba134ef5150f3578a654b48.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112E_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112e_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA112E_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -467,6 +475,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202312/3a0483ee758f2285d000c193a29ba36c.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -525,6 +534,7 @@
       "https://www.robotcourt.com/web/product/big/202312/253b0a4f2de1be00ff277eb290ccd683.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -584,6 +594,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202312/3a0483ee758f2285d000c193a29ba36c.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -642,6 +653,7 @@
       "https://www.robotcourt.com/web/product/big/202312/253b0a4f2de1be00ff277eb290ccd683.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -701,6 +713,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202312/3a0483ee758f2285d000c193a29ba36c.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -759,6 +772,7 @@
       "https://www.robotcourt.com/web/product/big/202312/253b0a4f2de1be00ff277eb290ccd683.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -818,6 +832,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202312/3a0483ee758f2285d000c193a29ba36c.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -876,6 +891,7 @@
       "https://www.robotcourt.com/web/product/big/202312/253b0a4f2de1be00ff277eb290ccd683.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -935,6 +951,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202312/3a0483ee758f2285d000c193a29ba36c.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -993,6 +1010,7 @@
       "https://www.robotcourt.com/web/product/big/202312/253b0a4f2de1be00ff277eb290ccd683.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -1052,6 +1070,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202312/3a0483ee758f2285d000c193a29ba36c.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -1110,6 +1129,7 @@
       "https://www.robotcourt.com/web/product/big/202312/253b0a4f2de1be00ff277eb290ccd683.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -1169,6 +1189,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202312/3a0483ee758f2285d000c193a29ba36c.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -1227,6 +1248,7 @@
       "https://www.robotcourt.com/web/product/big/202312/253b0a4f2de1be00ff277eb290ccd683.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -1286,6 +1308,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202312/3a0483ee758f2285d000c193a29ba36c.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -1344,6 +1367,7 @@
       "https://www.robotcourt.com/web/product/big/202312/253b0a4f2de1be00ff277eb290ccd683.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -1403,6 +1427,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202312/3a0483ee758f2285d000c193a29ba36c.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -1461,6 +1486,7 @@
       "https://www.robotcourt.com/web/product/big/202312/253b0a4f2de1be00ff277eb290ccd683.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -1520,6 +1546,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202312/3a0483ee758f2285d000c193a29ba36c.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -1578,6 +1605,7 @@
       "https://www.robotcourt.com/web/product/big/202312/253b0a4f2de1be00ff277eb290ccd683.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -1637,6 +1665,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202312/3a0483ee758f2285d000c193a29ba36c.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -1695,6 +1724,7 @@
       "https://www.robotcourt.com/web/product/big/202312/253b0a4f2de1be00ff277eb290ccd683.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -1754,6 +1784,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202312/3a0483ee758f2285d000c193a29ba36c.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -1812,6 +1843,7 @@
       "https://www.robotcourt.com/web/product/big/202312/253b0a4f2de1be00ff277eb290ccd683.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -1871,6 +1903,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202312/3a0483ee758f2285d000c193a29ba36c.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -1929,6 +1962,7 @@
       "https://www.robotcourt.com/web/product/big/202312/253b0a4f2de1be00ff277eb290ccd683.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -1988,6 +2022,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202312/3a0483ee758f2285d000c193a29ba36c.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -2046,6 +2081,7 @@
       "https://www.robotcourt.com/web/product/big/202312/253b0a4f2de1be00ff277eb290ccd683.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -2105,6 +2141,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202312/3a0483ee758f2285d000c193a29ba36c.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -2163,6 +2200,7 @@
       "https://www.robotcourt.com/web/product/big/202312/253b0a4f2de1be00ff277eb290ccd683.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -2222,6 +2260,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202312/3a0483ee758f2285d000c193a29ba36c.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -2280,6 +2319,7 @@
       "https://www.robotcourt.com/web/product/big/202312/253b0a4f2de1be00ff277eb290ccd683.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PA42E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pa42e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PA42E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -2338,6 +2378,7 @@
       "https://www.robotcourt.com/web/product/big/202401/b2d9df907127410390b259afe2630990.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -2396,6 +2437,7 @@
       "https://www.robotcourt.com/web/product/big/202401/b2d9df907127410390b259afe2630990.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PA60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -2454,6 +2496,7 @@
       "https://www.robotcourt.com/web/product/big/202401/b2d9df907127410390b259afe2630990.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -2512,6 +2555,7 @@
       "https://www.robotcourt.com/web/product/big/202401/b2d9df907127410390b259afe2630990.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PA60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -2570,6 +2614,7 @@
       "https://www.robotcourt.com/web/product/big/202401/b2d9df907127410390b259afe2630990.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -2628,6 +2673,7 @@
       "https://www.robotcourt.com/web/product/big/202401/b2d9df907127410390b259afe2630990.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PA60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -2686,6 +2732,7 @@
       "https://www.robotcourt.com/web/product/big/202401/b2d9df907127410390b259afe2630990.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -2744,6 +2791,7 @@
       "https://www.robotcourt.com/web/product/big/202401/b2d9df907127410390b259afe2630990.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PA60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -2802,6 +2850,7 @@
       "https://www.robotcourt.com/web/product/big/202401/b2d9df907127410390b259afe2630990.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -2860,6 +2909,7 @@
       "https://www.robotcourt.com/web/product/big/202401/b2d9df907127410390b259afe2630990.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PA60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -2918,6 +2968,7 @@
       "https://www.robotcourt.com/web/product/big/202401/b2d9df907127410390b259afe2630990.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -2976,6 +3027,7 @@
       "https://www.robotcourt.com/web/product/big/202401/4b5e70e13f9e18c2fa85d22b63681765.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PA60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -3034,6 +3086,7 @@
       "https://www.robotcourt.com/web/product/big/202401/b2d9df907127410390b259afe2630990.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -3092,6 +3145,7 @@
       "https://www.robotcourt.com/web/product/big/202401/4b5e70e13f9e18c2fa85d22b63681765.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PA60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -3150,6 +3204,7 @@
       "https://www.robotcourt.com/web/product/big/202401/b2d9df907127410390b259afe2630990.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -3208,6 +3263,7 @@
       "https://www.robotcourt.com/web/product/big/202401/4b5e70e13f9e18c2fa85d22b63681765.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PA60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -3266,6 +3322,7 @@
       "https://www.robotcourt.com/web/product/big/202401/b2d9df907127410390b259afe2630990.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -3324,6 +3381,7 @@
       "https://www.robotcourt.com/web/product/big/202401/4b5e70e13f9e18c2fa85d22b63681765.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PA60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -3382,6 +3440,7 @@
       "https://www.robotcourt.com/web/product/big/202401/b2d9df907127410390b259afe2630990.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -3440,6 +3499,7 @@
       "https://www.robotcourt.com/web/product/big/202401/4b5e70e13f9e18c2fa85d22b63681765.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PA60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -3498,6 +3558,7 @@
       "https://www.robotcourt.com/web/product/big/202401/b2d9df907127410390b259afe2630990.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -3556,6 +3617,7 @@
       "https://www.robotcourt.com/web/product/big/202401/4b5e70e13f9e18c2fa85d22b63681765.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PA60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -3614,6 +3676,7 @@
       "https://www.robotcourt.com/web/product/big/202401/b2d9df907127410390b259afe2630990.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -3672,6 +3735,7 @@
       "https://www.robotcourt.com/web/product/big/202401/4b5e70e13f9e18c2fa85d22b63681765.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PA60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -3731,6 +3795,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202402/cc8ace15326327a3cd9dbb339fb29d75.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PB42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pb42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PB42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -3789,6 +3854,7 @@
       "https://www.robotcourt.com/web/product/big/202402/f4aea7659b853fed26b15bcc5d0a2e60.png"
     ],
     "step-url": "../assets/models/NURIROBOT-BA59PB42E_2ST-3D.STEP",
+    "stl-url":"../assets/stls/nurirobot-ba59pb42e_2st-3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT-BA59PB42E_2ST-2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -3848,6 +3914,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202402/cc8ace15326327a3cd9dbb339fb29d75.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PB42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pb42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PB42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -3906,6 +3973,7 @@
       "https://www.robotcourt.com/web/product/big/202402/f4aea7659b853fed26b15bcc5d0a2e60.png"
     ],
     "step-url": "../assets/models/NURIROBOT-BA59PB42E_2ST-3D.STEP",
+    "stl-url":"../assets/stls/nurirobot-ba59pb42e_2st-3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT-BA59PB42E_2ST-2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -3965,6 +4033,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202402/cc8ace15326327a3cd9dbb339fb29d75.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PB42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pb42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PB42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -4023,6 +4092,7 @@
       "https://www.robotcourt.com/web/product/big/202402/f4aea7659b853fed26b15bcc5d0a2e60.png"
     ],
     "step-url": "../assets/models/NURIROBOT-BA59PB42E_2ST-3D.STEP",
+    "stl-url":"../assets/stls/nurirobot-ba59pb42e_2st-3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT-BA59PB42E_2ST-2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -4082,6 +4152,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202402/cc8ace15326327a3cd9dbb339fb29d75.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PB42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pb42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PB42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -4140,6 +4211,7 @@
       "https://www.robotcourt.com/web/product/big/202402/f4aea7659b853fed26b15bcc5d0a2e60.png"
     ],
     "step-url": "../assets/models/NURIROBOT-BA59PB42E_2ST-3D.STEP",
+    "stl-url":"../assets/stls/nurirobot-ba59pb42e_2st-3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT-BA59PB42E_2ST-2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -4199,6 +4271,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202402/cc8ace15326327a3cd9dbb339fb29d75.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PB42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pb42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PB42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -4257,6 +4330,7 @@
       "https://www.robotcourt.com/web/product/big/202402/f4aea7659b853fed26b15bcc5d0a2e60.png"
     ],
     "step-url": "../assets/models/NURIROBOT-BA59PB42E_2ST-3D.STEP",
+    "stl-url":"../assets/stls/nurirobot-ba59pb42e_2st-3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT-BA59PB42E_2ST-2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -4316,6 +4390,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202402/cc8ace15326327a3cd9dbb339fb29d75.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PB42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pb42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PB42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -4374,6 +4449,7 @@
       "https://www.robotcourt.com/web/product/big/202402/f4aea7659b853fed26b15bcc5d0a2e60.png"
     ],
     "step-url": "../assets/models/NURIROBOT-BA59PB42E_2ST-3D.STEP",
+    "stl-url":"../assets/stls/nurirobot-ba59pb42e_2st-3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT-BA59PB42E_2ST-2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -4433,6 +4509,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202402/cc8ace15326327a3cd9dbb339fb29d75.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PB42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pb42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PB42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -4491,6 +4568,7 @@
       "https://www.robotcourt.com/web/product/big/202402/f4aea7659b853fed26b15bcc5d0a2e60.png"
     ],
     "step-url": "../assets/models/NURIROBOT-BA59PB42E_2ST-3D.STEP",
+    "stl-url":"../assets/stls/nurirobot-ba59pb42e_2st-3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT-BA59PB42E_2ST-2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -4550,6 +4628,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202402/cc8ace15326327a3cd9dbb339fb29d75.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PB42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pb42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PB42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -4608,6 +4687,7 @@
       "https://www.robotcourt.com/web/product/big/202402/f4aea7659b853fed26b15bcc5d0a2e60.png"
     ],
     "step-url": "../assets/models/NURIROBOT-BA59PB42E_2ST-3D.STEP",
+    "stl-url":"../assets/stls/nurirobot-ba59pb42e_2st-3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT-BA59PB42E_2ST-2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -4667,6 +4747,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202402/cc8ace15326327a3cd9dbb339fb29d75.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PB42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pb42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PB42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -4725,6 +4806,7 @@
       "https://www.robotcourt.com/web/product/big/202402/f4aea7659b853fed26b15bcc5d0a2e60.png"
     ],
     "step-url": "../assets/models/NURIROBOT-BA59PB42E_2ST-3D.STEP",
+    "stl-url":"../assets/stls/nurirobot-ba59pb42e_2st-3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT-BA59PB42E_2ST-2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -4784,6 +4866,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202402/cc8ace15326327a3cd9dbb339fb29d75.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PB42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pb42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PB42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -4842,6 +4925,7 @@
       "https://www.robotcourt.com/web/product/big/202402/f4aea7659b853fed26b15bcc5d0a2e60.png"
     ],
     "step-url": "../assets/models/NURIROBOT-BA59PB42E_2ST-3D.STEP",
+    "stl-url":"../assets/stls/nurirobot-ba59pb42e_2st-3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT-BA59PB42E_2ST-2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -4901,6 +4985,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202402/cc8ace15326327a3cd9dbb339fb29d75.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PB42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pb42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PB42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -4959,6 +5044,7 @@
       "https://www.robotcourt.com/web/product/big/202402/f4aea7659b853fed26b15bcc5d0a2e60.png"
     ],
     "step-url": "../assets/models/NURIROBOT-BA59PB42E_2ST-3D.STEP",
+    "stl-url":"../assets/stls/nurirobot-ba59pb42e_2st-3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT-BA59PB42E_2ST-2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -5018,6 +5104,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202402/cc8ace15326327a3cd9dbb339fb29d75.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PB42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pb42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PB42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -5076,6 +5163,7 @@
       "https://www.robotcourt.com/web/product/big/202402/f4aea7659b853fed26b15bcc5d0a2e60.png"
     ],
     "step-url": "../assets/models/NURIROBOT-BA59PB42E_2ST-3D.STEP",
+    "stl-url":"../assets/stls/nurirobot-ba59pb42e_2st-3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT-BA59PB42E_2ST-2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -5135,6 +5223,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202402/cc8ace15326327a3cd9dbb339fb29d75.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PB42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pb42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PB42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -5193,6 +5282,7 @@
       "https://www.robotcourt.com/web/product/big/202402/f4aea7659b853fed26b15bcc5d0a2e60.png"
     ],
     "step-url": "../assets/models/NURIROBOT-BA59PB42E_2ST-3D.STEP",
+    "stl-url":"../assets/stls/nurirobot-ba59pb42e_2st-3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT-BA59PB42E_2ST-2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -5253,6 +5343,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202401/5a33937f7c2c4dc098da85b8c0d01bf3.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PC42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pc42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PC42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -5312,6 +5403,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202401/d81c114435f4ed1e702d9a6b7b4ea40d.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PC42E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pc42e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PC42E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -5371,6 +5463,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202401/5a33937f7c2c4dc098da85b8c0d01bf3.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PC42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pc42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PC42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -5430,6 +5523,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202401/d81c114435f4ed1e702d9a6b7b4ea40d.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PC42E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pc42e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PC42E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -5489,6 +5583,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202401/5a33937f7c2c4dc098da85b8c0d01bf3.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PC42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pc42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PC42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -5548,6 +5643,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202401/d81c114435f4ed1e702d9a6b7b4ea40d.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PC42E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pc42e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PC42E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -5607,6 +5703,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202401/5a33937f7c2c4dc098da85b8c0d01bf3.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PC42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pc42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PC42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -5666,6 +5763,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202401/d81c114435f4ed1e702d9a6b7b4ea40d.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PC42E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pc42e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PC42E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -5725,6 +5823,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202401/5a33937f7c2c4dc098da85b8c0d01bf3.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PC42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pc42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PC42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -5784,6 +5883,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202401/d81c114435f4ed1e702d9a6b7b4ea40d.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PC42E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pc42e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PC42E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -5843,6 +5943,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202401/5a33937f7c2c4dc098da85b8c0d01bf3.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PC42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pc42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PC42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -5902,6 +6003,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202401/d81c114435f4ed1e702d9a6b7b4ea40d.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PC42E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pc42e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PC42E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -5961,6 +6063,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202401/5a33937f7c2c4dc098da85b8c0d01bf3.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PC42-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pc42-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PC42-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -6020,6 +6123,7 @@
       "https://www.robotcourt.com/web/product/extra/big/202401/d81c114435f4ed1e702d9a6b7b4ea40d.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA59PC42E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba59pc42e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA59PC42E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -6078,6 +6182,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d4cfe8512b9c14dcb6832465b461bdf7.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -6135,6 +6240,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d4cfe8512b9c14dcb6832465b461bdf7.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PA60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -6192,6 +6298,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d4cfe8512b9c14dcb6832465b461bdf7.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -6249,6 +6356,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d4cfe8512b9c14dcb6832465b461bdf7.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PA60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -6306,6 +6414,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d4cfe8512b9c14dcb6832465b461bdf7.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -6363,6 +6472,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d4cfe8512b9c14dcb6832465b461bdf7.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PA60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -6420,6 +6530,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d4cfe8512b9c14dcb6832465b461bdf7.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -6477,6 +6588,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d4cfe8512b9c14dcb6832465b461bdf7.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PA60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -6534,6 +6646,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d4cfe8512b9c14dcb6832465b461bdf7.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -6591,6 +6704,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d4cfe8512b9c14dcb6832465b461bdf7.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PA60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -6648,6 +6762,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d4cfe8512b9c14dcb6832465b461bdf7.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -6705,6 +6820,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d4cfe8512b9c14dcb6832465b461bdf7.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PA60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -6762,6 +6878,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d4cfe8512b9c14dcb6832465b461bdf7.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -6819,6 +6936,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d4cfe8512b9c14dcb6832465b461bdf7.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PA60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -6876,6 +6994,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d4cfe8512b9c14dcb6832465b461bdf7.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -6933,6 +7052,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d4cfe8512b9c14dcb6832465b461bdf7.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PA60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -6990,6 +7110,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d4cfe8512b9c14dcb6832465b461bdf7.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -7047,6 +7168,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d4cfe8512b9c14dcb6832465b461bdf7.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PA60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -7104,6 +7226,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d4cfe8512b9c14dcb6832465b461bdf7.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -7161,6 +7284,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d4cfe8512b9c14dcb6832465b461bdf7.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PA60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -7218,6 +7342,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d4cfe8512b9c14dcb6832465b461bdf7.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -7275,6 +7400,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d4cfe8512b9c14dcb6832465b461bdf7.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PA60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -7332,6 +7458,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d4cfe8512b9c14dcb6832465b461bdf7.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -7389,6 +7516,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d4cfe8512b9c14dcb6832465b461bdf7.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PA60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -7447,6 +7575,7 @@
       "https://www.robotcourt.com/web/product/big/202307/6c4489743df29f90bfd5a958eb4ed317.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PE60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pe60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PE60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -7504,6 +7633,7 @@
       "https://www.robotcourt.com/web/product/big/202307/6296de3b6dedd10ba3c9e4093ed18c72.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PE60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pe60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PE60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -7561,6 +7691,7 @@
       "https://www.robotcourt.com/web/product/big/202307/6c4489743df29f90bfd5a958eb4ed317.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PE60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pe60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PE60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -7618,6 +7749,7 @@
       "https://www.robotcourt.com/web/product/big/202307/6296de3b6dedd10ba3c9e4093ed18c72.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PE60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pe60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PE60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -7675,6 +7807,7 @@
       "https://www.robotcourt.com/web/product/big/202307/6c4489743df29f90bfd5a958eb4ed317.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PE60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pe60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PE60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -7732,6 +7865,7 @@
       "https://www.robotcourt.com/web/product/big/202307/6296de3b6dedd10ba3c9e4093ed18c72.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PE60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pe60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PE60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -7789,6 +7923,7 @@
       "https://www.robotcourt.com/web/product/big/202307/6c4489743df29f90bfd5a958eb4ed317.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PE60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pe60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PE60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -7846,6 +7981,7 @@
       "https://www.robotcourt.com/web/product/big/202307/6296de3b6dedd10ba3c9e4093ed18c72.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA93PE60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba93pe60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA93PE60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -7904,6 +8040,7 @@
       "https://www.robotcourt.com/web/product/big/202402/461ccd38fcd115b065450c9309485310.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PB60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pb60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PB60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -7962,6 +8099,7 @@
       "https://www.robotcourt.com/web/product/big/202402/461ccd38fcd115b065450c9309485310.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PB60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pb60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PB60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -8020,6 +8158,7 @@
       "https://www.robotcourt.com/web/product/big/202402/461ccd38fcd115b065450c9309485310.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PB60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pb60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PB60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -8078,6 +8217,7 @@
       "https://www.robotcourt.com/web/product/big/202402/461ccd38fcd115b065450c9309485310.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PB60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pb60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PB60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -8136,6 +8276,7 @@
       "https://www.robotcourt.com/web/product/big/202402/461ccd38fcd115b065450c9309485310.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PB60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pb60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PB60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -8194,6 +8335,7 @@
       "https://www.robotcourt.com/web/product/big/202402/461ccd38fcd115b065450c9309485310.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PB60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pb60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PB60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -8252,6 +8394,7 @@
       "https://www.robotcourt.com/web/product/big/202402/461ccd38fcd115b065450c9309485310.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PB60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pb60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PB60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -8310,6 +8453,7 @@
       "https://www.robotcourt.com/web/product/big/202402/461ccd38fcd115b065450c9309485310.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PB60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pb60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PB60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -8368,6 +8512,7 @@
       "https://www.robotcourt.com/web/product/big/202402/461ccd38fcd115b065450c9309485310.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PB60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pb60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PB60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -8426,6 +8571,7 @@
       "https://www.robotcourt.com/web/product/big/202402/461ccd38fcd115b065450c9309485310.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PB60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pb60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PB60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -8484,6 +8630,7 @@
       "https://www.robotcourt.com/web/product/big/202402/461ccd38fcd115b065450c9309485310.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PB60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pb60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PB60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -8542,6 +8689,7 @@
       "https://www.robotcourt.com/web/product/big/202402/461ccd38fcd115b065450c9309485310.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PB60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pb60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PB60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -8600,6 +8748,7 @@
       "https://www.robotcourt.com/web/product/big/202402/461ccd38fcd115b065450c9309485310.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PB60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pb60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PB60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -8658,6 +8807,7 @@
       "https://www.robotcourt.com/web/product/big/202402/461ccd38fcd115b065450c9309485310.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PB60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pb60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PB60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -8716,6 +8866,7 @@
       "https://www.robotcourt.com/web/product/big/202402/461ccd38fcd115b065450c9309485310.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PB60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pb60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PB60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -8774,6 +8925,7 @@
       "https://www.robotcourt.com/web/product/big/202402/461ccd38fcd115b065450c9309485310.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PB60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pb60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PB60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -8832,6 +8984,7 @@
       "https://www.robotcourt.com/web/product/big/202402/461ccd38fcd115b065450c9309485310.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PB60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pb60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PB60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -8890,6 +9043,7 @@
       "https://www.robotcourt.com/web/product/big/202402/461ccd38fcd115b065450c9309485310.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PB60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pb60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PB60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -8948,6 +9102,7 @@
       "https://www.robotcourt.com/web/product/big/202402/461ccd38fcd115b065450c9309485310.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PB60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pb60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PB60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -9006,6 +9161,7 @@
       "https://www.robotcourt.com/web/product/big/202402/461ccd38fcd115b065450c9309485310.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PB60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pb60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PB60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -9064,6 +9220,7 @@
       "https://www.robotcourt.com/web/product/big/202402/461ccd38fcd115b065450c9309485310.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PB60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pb60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PB60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -9122,6 +9279,7 @@
       "https://www.robotcourt.com/web/product/big/202402/461ccd38fcd115b065450c9309485310.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PB60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pb60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PB60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -9180,6 +9338,7 @@
       "https://www.robotcourt.com/web/product/big/202402/461ccd38fcd115b065450c9309485310.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PB60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pb60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PB60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -9238,6 +9397,7 @@
       "https://www.robotcourt.com/web/product/big/202402/461ccd38fcd115b065450c9309485310.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PB60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pb60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PB60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -9296,6 +9456,7 @@
       "https://www.robotcourt.com/web/product/big/202402/775da32371dbbe6e5dead2f68878b770.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PD57-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pd57-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PD57-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -9354,6 +9515,7 @@
       "https://www.robotcourt.com/web/product/big/202402/775da32371dbbe6e5dead2f68878b770.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PD57E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pd57e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PD57E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -9412,6 +9574,7 @@
       "https://www.robotcourt.com/web/product/big/202402/775da32371dbbe6e5dead2f68878b770.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PD57-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pd57-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PD57-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -9470,6 +9633,7 @@
       "https://www.robotcourt.com/web/product/big/202402/775da32371dbbe6e5dead2f68878b770.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PD57E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pd57e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PD57E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -9528,6 +9692,7 @@
       "https://www.robotcourt.com/web/product/big/202402/775da32371dbbe6e5dead2f68878b770.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PD57-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pd57-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PD57-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -9586,6 +9751,7 @@
       "https://www.robotcourt.com/web/product/big/202402/775da32371dbbe6e5dead2f68878b770.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PD57E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pd57e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PD57E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -9644,6 +9810,7 @@
       "https://www.robotcourt.com/web/product/big/202402/775da32371dbbe6e5dead2f68878b770.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PD57-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pd57-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PD57-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -9702,6 +9869,7 @@
       "https://www.robotcourt.com/web/product/big/202402/775da32371dbbe6e5dead2f68878b770.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PD57E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pd57e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PD57E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -9760,6 +9928,7 @@
       "https://www.robotcourt.com/web/product/big/202402/775da32371dbbe6e5dead2f68878b770.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PD57-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pd57-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PD57-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -9818,6 +9987,7 @@
       "https://www.robotcourt.com/web/product/big/202402/775da32371dbbe6e5dead2f68878b770.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PD57E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pd57e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PD57E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -9876,6 +10046,7 @@
       "https://www.robotcourt.com/web/product/big/202402/775da32371dbbe6e5dead2f68878b770.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PD57-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pd57-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PD57-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -9934,6 +10105,7 @@
       "https://www.robotcourt.com/web/product/big/202402/775da32371dbbe6e5dead2f68878b770.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB60PD57E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb60pd57e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB60PD57E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -9993,6 +10165,7 @@
       "https://www.robotcourt.com/web/product/big/202307/0d99619e7f7d9e55e6489f76b9562c28.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB59PE60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb59pe60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB59PE60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -10051,6 +10224,7 @@
       "https://www.robotcourt.com/web/product/big/202307/5bb0a775bfba77824a451e31350c9509.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB59PE60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb59pe60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB59PE60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -10109,6 +10283,7 @@
       "https://www.robotcourt.com/web/product/big/202307/0d99619e7f7d9e55e6489f76b9562c28.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB59PE60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb59pe60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB59PE60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -10167,6 +10342,7 @@
       "https://www.robotcourt.com/web/product/big/202307/5bb0a775bfba77824a451e31350c9509.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB59PE60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb59pe60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB59PE60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -10225,6 +10401,7 @@
       "https://www.robotcourt.com/web/product/big/202307/0d99619e7f7d9e55e6489f76b9562c28.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB59PE60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb59pe60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB59PE60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -10283,6 +10460,7 @@
       "https://www.robotcourt.com/web/product/big/202307/5bb0a775bfba77824a451e31350c9509.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB59PE60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb59pe60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB59PE60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -10341,6 +10519,7 @@
       "https://www.robotcourt.com/web/product/big/202307/0d99619e7f7d9e55e6489f76b9562c28.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB59PE60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb59pe60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB59PE60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -10399,6 +10578,7 @@
       "https://www.robotcourt.com/web/product/big/202307/5bb0a775bfba77824a451e31350c9509.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BB59PE60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_bb59pe60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB59PE60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -10457,6 +10637,7 @@
       "https://www.robotcourt.com/web/product/big/202307/39b8c38e72fe3653182b706ad128da15.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA112PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -10515,6 +10696,7 @@
       "https://www.robotcourt.com/web/product/big/202307/39b8c38e72fe3653182b706ad128da15.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB59PE60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -10573,6 +10755,7 @@
       "https://www.robotcourt.com/web/product/big/202307/39b8c38e72fe3653182b706ad128da15.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA112PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -10631,6 +10814,7 @@
       "https://www.robotcourt.com/web/product/big/202307/39b8c38e72fe3653182b706ad128da15.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB59PE60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -10689,6 +10873,7 @@
       "https://www.robotcourt.com/web/product/big/202307/39b8c38e72fe3653182b706ad128da15.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA112PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -10747,6 +10932,7 @@
       "https://www.robotcourt.com/web/product/big/202307/39b8c38e72fe3653182b706ad128da15.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB59PE60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -10805,6 +10991,7 @@
       "https://www.robotcourt.com/web/product/big/202307/39b8c38e72fe3653182b706ad128da15.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA112PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -10863,6 +11050,7 @@
       "https://www.robotcourt.com/web/product/big/202307/39b8c38e72fe3653182b706ad128da15.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB59PE60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -10921,6 +11109,7 @@
       "https://www.robotcourt.com/web/product/big/202307/39b8c38e72fe3653182b706ad128da15.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA112PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -10979,6 +11168,7 @@
       "https://www.robotcourt.com/web/product/big/202307/39b8c38e72fe3653182b706ad128da15.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB59PE60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -11037,6 +11227,7 @@
       "https://www.robotcourt.com/web/product/big/202307/39b8c38e72fe3653182b706ad128da15.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA112PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -11095,6 +11286,7 @@
       "https://www.robotcourt.com/web/product/big/202307/39b8c38e72fe3653182b706ad128da15.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB59PE60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -11153,6 +11345,7 @@
       "https://www.robotcourt.com/web/product/big/202307/39b8c38e72fe3653182b706ad128da15.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA112PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -11211,6 +11404,7 @@
       "https://www.robotcourt.com/web/product/big/202307/39b8c38e72fe3653182b706ad128da15.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB59PE60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -11269,6 +11463,7 @@
       "https://www.robotcourt.com/web/product/big/202307/39b8c38e72fe3653182b706ad128da15.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA112PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -11327,6 +11522,7 @@
       "https://www.robotcourt.com/web/product/big/202307/39b8c38e72fe3653182b706ad128da15.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB59PE60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -11385,6 +11581,7 @@
       "https://www.robotcourt.com/web/product/big/202307/39b8c38e72fe3653182b706ad128da15.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA112PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -11443,6 +11640,7 @@
       "https://www.robotcourt.com/web/product/big/202307/39b8c38e72fe3653182b706ad128da15.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB59PE60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -11501,6 +11699,7 @@
       "https://www.robotcourt.com/web/product/big/202307/39b8c38e72fe3653182b706ad128da15.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA112PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -11559,6 +11758,7 @@
       "https://www.robotcourt.com/web/product/big/202307/39b8c38e72fe3653182b706ad128da15.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB59PE60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -11617,6 +11817,7 @@
       "https://www.robotcourt.com/web/product/big/202307/39b8c38e72fe3653182b706ad128da15.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA112PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -11675,6 +11876,7 @@
       "https://www.robotcourt.com/web/product/big/202307/39b8c38e72fe3653182b706ad128da15.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB59PE60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -11733,6 +11935,7 @@
       "https://www.robotcourt.com/web/product/big/202307/39b8c38e72fe3653182b706ad128da15.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PA60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pa60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA112PA60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -11791,6 +11994,7 @@
       "https://www.robotcourt.com/web/product/big/202307/39b8c38e72fe3653182b706ad128da15.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PA60E-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pa60e-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BB59PE60E-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -11849,6 +12053,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d5f45a17380676cbc1716164e3add23e.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PE60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pe60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA112PE60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -11907,6 +12112,7 @@
       "https://www.robotcourt.com/web/product/big/202307/851894e0aafaabc2f9c7c04239f0143e.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PE-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pe-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA112PE-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -11965,6 +12171,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d5f45a17380676cbc1716164e3add23e.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PE60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pe60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA112PE60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -12023,6 +12230,7 @@
       "https://www.robotcourt.com/web/product/big/202307/851894e0aafaabc2f9c7c04239f0143e.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PE-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pe-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA112PE-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -12081,6 +12289,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d5f45a17380676cbc1716164e3add23e.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PE60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pe60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA112PE60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -12139,6 +12348,7 @@
       "https://www.robotcourt.com/web/product/big/202307/851894e0aafaabc2f9c7c04239f0143e.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PE-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pe-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA112PE-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -12197,6 +12407,7 @@
       "https://www.robotcourt.com/web/product/big/202307/d5f45a17380676cbc1716164e3add23e.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PE60-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pe60-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA112PE60-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -12255,6 +12466,7 @@
       "https://www.robotcourt.com/web/product/big/202307/851894e0aafaabc2f9c7c04239f0143e.png"
     ],
     "step-url": "../assets/models/NURIROBOT_BA112PE-2ST_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ba112pe-2st_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_BA112PE-2ST_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -12313,6 +12525,7 @@
       "../assets/render/RJ90-500x500.png"
     ],
     "step-url": "../assets/models/Unnamed-RJ90.step",
+    "stl-url":"../assets/stls/unnamed-rj90.stl",
     "dxf-url": "",
     "type": "rotary",
     "type-use": [
@@ -12352,6 +12565,7 @@
       "../assets/render/RJ110-500x500.png"
     ],
     "step-url": "../assets/models/Unnamed-RJ110.step",
+    "stl-url":"../assets/stls/unnamed-rj110.stl",
     "dxf-url": "",
     "type": "rotary",
     "type-use": [
@@ -12391,6 +12605,7 @@
       "../assets/render/RJ130-500x500.png"
     ],
     "step-url": "../assets/models/Unnamed-RJ130.step",
+    "stl-url":"../assets/stls/unnamed-rj130.stl",
     "dxf-url": "",
     "type": "rotary",
     "type-use": [
@@ -12430,6 +12645,7 @@
       "../assets/render/RJ150-500x500.png"
     ],
     "step-url": "../assets/models/Unnamed-RJ150.step",
+    "stl-url":"../assets/stls/unnamed-rj150.stl",
     "dxf-url": "",
     "type": "rotary",
     "type-use": [
@@ -12469,6 +12685,7 @@
       "../assets/render/RJ170-500x500.png"
     ],
     "step-url": "../assets/models/Unnamed-RJ170.step",
+    "stl-url":"../assets/stls/unnamed-rj170.stl",
     "dxf-url": "",
     "type": "rotary",
     "type-use": [
@@ -12509,10 +12726,12 @@
       "../assets/render/CAE_500x500.png"
     ],
     "step-url": "../assets/models/NURIROBOT_CA1000E_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_ca1000e_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_CA1000E_2D.dxf",
     "type": "rotary",
     "type-use": [
-      "linear"
+      "linear",
+      "cylinder"
     ],
     "controled": false,
     "weight_g": 0,
@@ -12547,6 +12766,7 @@
       "../assets/render/LCAE_500x500.png"
     ],
     "step-url": "../assets/models/NURIROBOT_LCA1200E_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_lca1200e_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_CA1000E_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -12585,10 +12805,12 @@
       "../assets/render/SCAR_500x500.png"
     ],
     "step-url": "../assets/models/NURIROBOT_SCA1000R_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_sca1000r_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_SCA1000R_2D.dxf",
     "type": "rotary",
     "type-use": [
-      "linear"
+      "linear",
+      "cylinder"
     ],
     "controled": true,
     "weight_g": 0,
@@ -12624,6 +12846,7 @@
       "../assets/render/SLCAR_500x500.png"
     ],
     "step-url": "../assets/models/NURIROBOT_SLCA1200R_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_slca1200r_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_SLCA1200R_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -12663,6 +12886,7 @@
       "../assets/render/SWA171R_500x500.png"
     ],
     "step-url": "../assets/models/NURIROBOT_SWA171R_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_swa171r_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_SWA171R_2D.dxf",
     "type": "rotary",
     "type-use": [
@@ -12702,6 +12926,7 @@
       "../assets/render/WA171_500x500.png"
     ],
     "step-url": "../assets/models/NURIROBOT_WA171_3D.STEP",
+    "stl-url":"../assets/stls/nurirobot_wa171_3d.stl",
     "dxf-url": "../assets/drawings/NURIROBOT_WA171_2D.dxf",
     "type": "rotary",
     "type-use": [

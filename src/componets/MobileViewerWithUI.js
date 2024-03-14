@@ -3,7 +3,7 @@ import * as OV from "online-3d-viewer";
 
 import Box from '@mui/material/Box';
 
-const MobileViewerWithUI = ({ url, loaded }) => {
+const MobileViewerWithUI = ({ url, loaded, stlurl }) => {
     const parentDiv = useRef(null);
     const viewerRef = useRef(null);
     
@@ -51,7 +51,7 @@ const MobileViewerWithUI = ({ url, loaded }) => {
                 
                 viewerRef.current = viewer;
                 let urls = [
-                    url
+                    stlurl
                 ]
                 viewer.LoadModelFromUrlList(urls);
             }

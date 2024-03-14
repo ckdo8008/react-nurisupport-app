@@ -157,7 +157,7 @@ Praesent commodo cursus magna, vel scelerisque nisl consectetur et.`,
             </Grid>
             <Grid item xs={1}>
               <Item>
-                <Button variant="outlined" startIcon={<AddIcon />} onClick={() => navigator('/choose/cylinder')} disabled >
+                <Button variant="outlined" startIcon={<AddIcon />} onClick={() => navigator('/choose/cylinder')}  >
                   실린더<br/>
                   Cylinder
                 </Button>

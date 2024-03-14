@@ -17,7 +17,7 @@ import VisibilityOutlined from '@mui/icons-material/VisibilityOutlined'
 import DownloadIcon from '@mui/icons-material/Download';
 import Typography from '@mui/material/Typography';
 
-const ViewerWithUI = ({ url, loaded }) => {
+const ViewerWithUI = ({ url, loaded, stlurl }) => {
     const parentDiv = useRef(null);
     const viewerRef = useRef(null);
     const [open, setOpen] = useState(false);
@@ -118,7 +118,7 @@ const ViewerWithUI = ({ url, loaded }) => {
                 
                 viewerRef.current = viewer;
                 let urls = [
-                    url
+                    stlurl
                 ]
                 viewer.LoadModelFromUrlList(urls);
             }
