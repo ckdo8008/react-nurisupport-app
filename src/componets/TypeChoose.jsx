@@ -144,7 +144,7 @@ Praesent commodo cursus magna, vel scelerisque nisl consectetur et.`,
             </Grid>
             <Grid item xs={1}>
               <Item>
-                <Button variant="outlined" startIcon={<AddIcon />} onClick={() => navigator('/choose/linear')} disabled>
+                <Button variant="outlined" startIcon={<AddIcon />} onClick={() => navigator('/choose/linear')}>
                   리니어<br/>
                   Linear
                 </Button>
@@ -157,7 +157,7 @@ Praesent commodo cursus magna, vel scelerisque nisl consectetur et.`,
             </Grid>
             <Grid item xs={1}>
               <Item>
-                <Button variant="outlined" startIcon={<AddIcon />} onClick={() => navigator('/choose/culinder')} disabled>
+                <Button variant="outlined" startIcon={<AddIcon />} onClick={() => navigator('/choose/cylinder')} disabled >
                   실린더<br/>
                   Cylinder
                 </Button>
@@ -173,7 +173,7 @@ Praesent commodo cursus magna, vel scelerisque nisl consectetur et.`,
             </Grid>
             <Grid item xs={1}>
               <Item>
-                <Button variant="outlined" startIcon={<AddIcon />} onClick={() => navigator('/choose/lift')} disabled>
+                <Button variant="outlined" startIcon={<AddIcon />} onClick={() => navigator('/choose/lift')} >
                   리프트 컬럼<br/>
                   Lift Column
                 </Button>

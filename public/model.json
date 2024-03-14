@@ -12500,5 +12500,236 @@
         "stalltorque": 450
       }
     ]
+  },
+
+  {
+    "name": "CA1000E",
+    "nurirobot-url": "",
+    "picture": [
+      "../assets/render/CAE_500x500.png"
+    ],
+    "step-url": "../assets/models/NURIROBOT_CA1000E_3D.STEP",
+    "dxf-url": "../assets/drawings/NURIROBOT_CA1000E_2D.dxf",
+    "type": "rotary",
+    "type-use": [
+      "linear"
+    ],
+    "controled": false,
+    "weight_g": 0,
+    "size": "",
+    "brakable": false,
+    "geared": true,
+    "geartype": "Lead Screw",
+    "backlash": "?",
+    "encorder": true,
+    "hollow": false,
+    "ratio": 1000,
+    "pulserevolution": null,
+    "countsrevolution": null,
+    "communication": [
+      "none"
+    ],
+    "poles": 0,
+    "current_a": 0,
+    "torque": 150,
+    "specs": [
+      {
+        "voltage": 24,
+        "speed": 0,
+        "stalltorque": 0
+      }
+    ]
+  },
+  {
+    "name": "LCA1200E",
+    "nurirobot-url": "",
+    "picture": [
+      "../assets/render/LCAE_500x500.png"
+    ],
+    "step-url": "../assets/models/NURIROBOT_LCA1200E_3D.STEP",
+    "dxf-url": "../assets/drawings/NURIROBOT_CA1000E_2D.dxf",
+    "type": "rotary",
+    "type-use": [
+      "lift"
+    ],
+    "controled": false,
+    "weight_g": 0,
+    "size": "",
+    "brakable": false,
+    "geared": true,
+    "geartype": "Lead Screw",
+    "backlash": "?",
+    "encorder": true,
+    "hollow": false,
+    "ratio": 1200,
+    "pulserevolution": null,
+    "countsrevolution": null,
+    "communication": [
+      "none"
+    ],
+    "poles": 0,
+    "current_a": 0,
+    "torque": 150,
+    "specs": [
+      {
+        "voltage": 24,
+        "speed": 0,
+        "stalltorque": 0
+      }
+    ]
+  },
+  {
+    "name": "SCA1000R",
+    "nurirobot-url": "",
+    "picture": [
+      "../assets/render/SCAR_500x500.png"
+    ],
+    "step-url": "../assets/models/NURIROBOT_SCA1000R_3D.STEP",
+    "dxf-url": "../assets/drawings/NURIROBOT_SCA1000R_2D.dxf",
+    "type": "rotary",
+    "type-use": [
+      "linear"
+    ],
+    "controled": true,
+    "weight_g": 0,
+    "size": "",
+    "brakable": false,
+    "geared": true,
+    "geartype": "Lead Screw",
+    "backlash": "?",
+    "encorder": true,
+    "hollow": false,
+    "ratio": 1200,
+    "pulserevolution": null,
+    "countsrevolution": null,
+    "communication": [
+      "none",
+      "rs485"
+    ],
+    "poles": 0,
+    "current_a": 0,
+    "torque": 150,
+    "specs": [
+      {
+        "voltage": 24,
+        "speed": 0,
+        "stalltorque": 0
+      }
+    ]
+  },
+  {
+    "name": "SLCA1200R",
+    "nurirobot-url": "",
+    "picture": [
+      "../assets/render/SLCAR_500x500.png"
+    ],
+    "step-url": "../assets/models/NURIROBOT_SLCA1200R_3D.STEP",
+    "dxf-url": "../assets/drawings/NURIROBOT_SLCA1200R_2D.dxf",
+    "type": "rotary",
+    "type-use": [
+      "lift"
+    ],
+    "controled": true,
+    "weight_g": 0,
+    "size": "",
+    "brakable": false,
+    "geared": true,
+    "geartype": "Lead Screw",
+    "backlash": "?",
+    "encorder": true,
+    "hollow": false,
+    "ratio": 1200,
+    "pulserevolution": null,
+    "countsrevolution": null,
+    "communication": [
+      "none",
+      "rs485"
+    ],
+    "poles": 0,
+    "current_a": 0,
+    "torque": 150,
+    "specs": [
+      {
+        "voltage": 24,
+        "speed": 0,
+        "stalltorque": 0
+      }
+    ]
+  },
+  {
+    "name": "SWA171R",
+    "nurirobot-url": "",
+    "picture": [
+      "../assets/render/SWA171R_500x500.png"
+    ],
+    "step-url": "../assets/models/NURIROBOT_SWA171R_3D.STEP",
+    "dxf-url": "../assets/drawings/NURIROBOT_SWA171R_2D.dxf",
+    "type": "rotary",
+    "type-use": [
+      "wheel"
+    ],
+    "controled": true,
+    "weight_g": 0,
+    "size": "",
+    "brakable": false,
+    "geared": false,
+    "backlash": "?",
+    "encorder": true,
+    "hollow": false,
+    "ratio": 1,
+    "pulserevolution": null,
+    "countsrevolution": null,
+    "communication": [
+      "none",
+      "rs485"
+    ],
+    "poles": 0,
+    "current_a": 0,
+    "torque": 150,
+    "specs": [
+      {
+        "voltage": 24,
+        "speed": 0,
+        "stalltorque": 0
+      }
+    ]
+  }
+  ,
+  {
+    "name": "WA171",
+    "nurirobot-url": "",
+    "picture": [
+      "../assets/render/WA171_500x500.png"
+    ],
+    "step-url": "../assets/models/NURIROBOT_WA171_3D.STEP",
+    "dxf-url": "../assets/drawings/NURIROBOT_WA171_2D.dxf",
+    "type": "rotary",
+    "type-use": [
+      "wheel"
+    ],
+    "controled": false,
+    "weight_g": 0,
+    "size": "",
+    "brakable": false,
+    "geared": false,
+    "backlash": "?",
+    "encorder": true,
+    "hollow": false,
+    "ratio": 1,
+    "pulserevolution": null,
+    "countsrevolution": null,
+    "communication": [
+      "none"
+    ],
+    "poles": 0,
+    "current_a": 0,
+    "torque": 150,
+    "specs": [
+      {
+        "voltage": 24,
+        "speed": 0,
+        "stalltorque": 0
+      }
+    ]
   }
 ]
