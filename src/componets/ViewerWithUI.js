@@ -14,15 +14,30 @@ import PanoramaHorizontal from '@mui/icons-material/PanoramaHorizontal'
 
 import VisibilityOffOutlined from '@mui/icons-material/VisibilityOffOutlined'
 import VisibilityOutlined from '@mui/icons-material/VisibilityOutlined'
+import DownloadIcon from '@mui/icons-material/Download';
+import Typography from '@mui/material/Typography';
 
-const ViewerWithUI = ({ url }) => {
+const ViewerWithUI = ({ url, loaded }) => {
     const parentDiv = useRef(null);
     const viewerRef = useRef(null);
     const [open, setOpen] = useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
-
+    const fileurl = useRef(url);
+    // const onResize = useCallback(() => {
+    //     handleResize();
+    //     // console.log('onresize');
+    // }, []);
+    
+    // const { width, height, ref } = useResizeDetector({
+    // handleHeight: false,
+    // refreshMode: 'debounce',
+    // refreshRate: 1000,
+    // onResize
+    // });
+    
     const actions = [
+        { icon: <DownloadIcon />, name: 'Download', action: () => downloadFile(url) },
         { icon: <VisibilityOffOutlined />, name: 'Outline Off', action: () => setOutline(false) },
         { icon: <VisibilityOutlined />, name: 'Outline On', action: () => setOutline(true) },
         { icon: <Rotate90DegreesCcw />, name: 'Y', action: () => setUpVectorY() },
@@ -31,17 +46,41 @@ const ViewerWithUI = ({ url }) => {
         { icon: <PanoramaHorizontal />, name: 'Orthographic', action: () => setOrthographic() },
         { icon: <ZoomInMap />, name: 'Fit Model', action: () => FitModelToWindow() },
       ];
-    const ttt = new OV.EdgeSettings(false, new OV.RGBColor(0, 0, 0), 30);      
+    const ttt = new OV.EdgeSettings(true, new OV.RGBColor(0, 0, 0), 30);
+    
+    const downloadFile = (url) => {
+        fetch(url, { method: 'GET' })
+            .then((res) => {
+                return res.blob();
+            })
+            .then((blob) => {
+                console.log(fileurl.current);
+                const filename = fileurl.current.split('/').pop();
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = filename;
+                document.body.appendChild(a);
+                a.click();
+                setTimeout((_) => {
+                    window.URL.revokeObjectURL(url);
+                }, 60000);
+                a.remove();
+                setOpen(false);
+            })
+            .catch((err) => {
+                console.error('err: ', err);
+            });
+    };
 
     useEffect(() => {
-        console.log(url);
-        console.log(parentDiv);
+
         if (url) {
             OV.SetExternalLibLocation("libs");
             OV.Init3DViewerElements();
-
             
             if (viewerRef.current === null) {
+                
                 let viewer = new OV.EmbeddedViewer(parentDiv.current, {
                     camera: new OV.Camera(
                         new OV.Coord3D(-150.0, 200.0, 300.0),
@@ -49,7 +88,7 @@ const ViewerWithUI = ({ url }) => {
                         new OV.Coord3D(0.0, 1.0, 0.0),
                         45.0
                     ),
-                    backgroundColor: new OV.RGBAColor(255, 255, 255, 255),
+                    backgroundColor: new OV.RGBAColor(49, 54, 57, 255),
                     defaultColor: new OV.RGBColor(0, 100, 100),
                     edgeSettings: ttt,
                     environmentMap: [
@@ -62,11 +101,17 @@ const ViewerWithUI = ({ url }) => {
                     ],
                     onModelLoaded: () => {
                         FitModelToWindow();
+                        loaded();
                     },
                 });
+
+                // parentDiv.current.
                 // ! This feels stupid but unfortunately, this resizing event can persist after clean up and lead to an error, one way to avoid this happening is to just overwrite the method so that it doesn't call this.viewer
                 viewer.Resize = () => {
-                    console.log("I'm not resizing");
+
+                    if (viewerRef.current !== null && parentDiv.current !== null) {
+                        viewerRef.current.GetViewer().Resize(parentDiv.current.clientWidth, parentDiv.current.clientHeight);
+                    }
                 };
 
                 viewer.GetViewer().projectionMode = OV.ProjectionMode.Perspective;
@@ -80,6 +125,7 @@ const ViewerWithUI = ({ url }) => {
         }
 
         return () => {
+            // window.removeEventListener('resize', handleResize);
             if (viewerRef.current !== null && parentDiv.current !== null) {
                 delete viewerRef.current.model;
                 viewerRef.current.viewer.renderer.resetState();
@@ -97,6 +143,16 @@ const ViewerWithUI = ({ url }) => {
             }
         };
     }, [url]);
+
+    useEffect(() => {
+        if (!parentDiv.current) return;
+        const resizeObserver = new ResizeObserver(() => {
+            if (url)
+                viewerRef.current.Resize();
+        });
+        resizeObserver.observe(parentDiv.current);
+        return () => resizeObserver.disconnect(); // clean up 
+      }, []);
 
     const Direction = { X: 1, Y: 2, Z: 3 };
 
@@ -166,31 +222,35 @@ const ViewerWithUI = ({ url }) => {
     };
 
     return (
-        <>
-            <Box sx={{ position: 'relative', mt: 3, height: 600 }}
-            ref={parentDiv}
-            role={"img"}
-            aria-label="Canvas showing the model in the 3D Viewer"
-            >
-                <SpeedDial
-                    ariaLabel="SpeedDial basic example"
-                    sx={{ position: 'absolute', bottom: 30, right: 30 }}
-                    icon={<ViewHeadline />}
-                    onClose={handleClose}
-                    onOpen={handleOpen}
-                    open={open}
-                    >
-                    {actions.map((action) => (
-                    <SpeedDialAction
-                        key={action.name}
-                        icon={action.icon}
-                        tooltipTitle={action.name}
-                        onClick={() => handleAction(action.action)}
-                    />
-                    ))}
-                </SpeedDial>
+        <Box sx={{width: '100%', height: '100%'}}>
+            {url ?
+            <SpeedDial
+                ariaLabel="SpeedDial basic example"
+                sx={{ position: 'absolute', bottom: 30, left: 30  }}
+                icon={<ViewHeadline />}
+                onClose={handleClose}
+                onOpen={handleOpen}
+                open={open}
+                >
+                {actions.map((action) => (
+                <SpeedDialAction
+                    key={action.name}
+                    icon={action.icon}
+                    tooltipTitle={action.name}
+                    onClick={() => handleAction(action.action)}
+                />
+                ))}
+            </SpeedDial>
+            : <></>
+            }
+            {url ?
+            <Box ref={parentDiv} sx={{height: '100%', color: '#fff'}}>
             </Box>
-        </>
+            : <Typography variant="h6" component="div">
+            등록된 파일 없음
+          </Typography>
+            }            
+        </Box>
     );
 };
 

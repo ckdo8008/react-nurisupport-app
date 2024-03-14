@@ -165,7 +165,7 @@ Praesent commodo cursus magna, vel scelerisque nisl consectetur et.`,
             </Grid>
             <Grid item xs={1}>
               <Item>
-                <Button variant="outlined" startIcon={<AddIcon />} onClick={() => navigator('/choose/wheel')} disabled>
+                <Button variant="outlined" startIcon={<AddIcon />} onClick={() => navigator('/choose/wheel')} >
                   로봇 바퀴<br/>
                   Wheel
                 </Button>

@@ -1,4 +1,4 @@
-import {useState, useEffect, cloneElement } from 'react'
+import {useState, useEffect, cloneElement, forwardRef, useRef } from 'react'
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
@@ -27,6 +27,21 @@ import ImageListItemBar from '@mui/material/ImageListItemBar';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import Tooltip from '@mui/material/Tooltip';
 
+import Slide from '@mui/material/Slide';
+import CloseIcon from '@mui/icons-material/Close';
+import Dialog from '@mui/material/Dialog';
+import DialogContent from '@mui/material/DialogContent';
+import DialogContentText from '@mui/material/DialogContentText';
+import DialogTitle from '@mui/material/DialogTitle';
+import SplitPane from 'react-split-pane';
+import ViewerWithUI from "./ViewerWithUI";
+import ViewerDxf from './ViewerDxf';
+import MobileViewerWithUI from './MobileViewerWithUI';
+import MobileViewerDxf from './MobileViewerDxf';
+
+const Transition = forwardRef(function Transition(props, ref) {
+  return <Slide direction="up" ref={ref} {...props} />;
+});
 
 const Choose = (props) => {
   const navigator = useNavigate();
@@ -36,6 +51,8 @@ const Choose = (props) => {
   const params = useParams();
   const [data, setData] = useState(null);
   const [dispdata, setDispData] = useState(null);
+  // const splitPnlRef = useRef(null);
+  // const [splitPnl1stwidth, setsplitPnl1stwidth] = useState(0);
 
   const drawerWidth = 240;
   // const [chks, setChks] = useState(false);
@@ -52,6 +69,7 @@ const Choose = (props) => {
   const [voltage48, setVoltage48] = useState(false);
   const [encorder, setEncorder] = useState(false);
   const [commrs485, setCommrs485] = useState(false);
+  const [commethercat, setCommethercat] = useState(false);
 
   const [torques, setTorques] = useState([]);
   const [displaytorques, setDisplaytorques] = useState([]);
@@ -66,15 +84,43 @@ const Choose = (props) => {
   const [qrySpeeds, setQrySpeeds] = useState(['']);
 
   const [disableRs485, setDisableRS485] = useState(false);
+  const [disableEthercat, setDisableEthercat] = useState(false);
   const [disableControl, setDisableControl] = useState(false);
   const [disablehollow, setdisableHollow] = useState(false);
   const [disableencorder, setdisableEncorder] = useState(false);
-
   const [disablegeared, setdisableGeared] = useState(false);
   const [disablebrakable, setdisableBrakable] = useState(false);
-
   const [minSpeed, setMinspeed] = useState(0);
   const [maxSpeed, setMaxspeed] = useState(0);
+  const [stepUrl, setStepUrl] = useState('');
+  const [dxfUrl, setDxfUrl] = useState('');
+
+  const [open, setOpen] = useState(false);
+  const [maxWidth, setMaxWidth] = useState('xl');
+  const [allowResize, setallowResize] = useState(false);
+
+  const [dialogName, setDialogName] = useState('');
+  const [dialogbuyurl, setDialogBuyurl] = useState('');
+
+  const handleClickOpen = (arg, dxf, buy, name) => {
+    console.log(arg, dxf, buy, name);
+
+    setStepUrl(arg);
+    setDxfUrl(dxf);
+    setDialogBuyurl(buy);
+    setDialogName(name);
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+    setallowResize(false);
+  };
+
+  const onLoaded =() => {
+    console.log(' ============================== lalkdsfjlasdkjflasdkj');
+    setallowResize(true);
+  };
 
   const DrawerHeader = styled('div')(({ theme }) => ({
     display: 'flex',
@@ -177,8 +223,11 @@ const Choose = (props) => {
   const checkFilterdisable = (array) => {
     const tmp485 = findUniqueValuesForProperty(array, 'communication');
     const is485 = !tmp485.some(itm => itm === 'rs485');
+    const isethercat = !tmp485.some(itm => itm === 'ethercat');
     setDisableRS485(is485);
+    setDisableEthercat(isethercat);
     is485 && setCommrs485(false);
+    isethercat && setCommethercat(false);
 
     const tmpcontroled = findUniqueValuesForProperty(array, 'controled');
     const iscontrol = !tmpcontroled.some(itm => itm === true);
@@ -207,28 +256,43 @@ const Choose = (props) => {
 
     if (voltage12) {
       var tmpspeeds = getSpeedsForVoltage(array, 12);
-      setMinspeed(tmpspeeds.length === 0 ? 0 : Math.min(...tmpspeeds));
-      setMaxspeed(tmpspeeds.length === 0 ? 0 : Math.max(...tmpspeeds));
+      const min = tmpspeeds.length === 0 ? 0 : Math.min(...tmpspeeds);
+      const max = tmpspeeds.length === 0 ? 0 : Math.max(...tmpspeeds);
+      setMinspeed(min);
+      setMaxspeed(max);
+      qrySpeeds.length == 2 && (qrySpeeds[1] < min || qrySpeeds[1] > max) && setQrySpeeds(['']);
     }
     else if (voltage24) {
       var tmpspeeds = getSpeedsForVoltage(array, 24);
-      setMinspeed(tmpspeeds.length === 0 ? 0 : Math.min(...tmpspeeds));
-      setMaxspeed(tmpspeeds.length === 0 ? 0 : Math.max(...tmpspeeds));
+      const min = tmpspeeds.length === 0 ? 0 : Math.min(...tmpspeeds);
+      const max = tmpspeeds.length === 0 ? 0 : Math.max(...tmpspeeds);
+      setMinspeed(min);
+      setMaxspeed(max);
+      qrySpeeds.length == 2 && (qrySpeeds[1] < min || qrySpeeds[1] > max) && setQrySpeeds(['']);
     }
     else if (voltage36) {
       var tmpspeeds = getSpeedsForVoltage(array, 36);
-      setMinspeed(tmpspeeds.length === 0 ? 0 : Math.min(...tmpspeeds));
-      setMaxspeed(tmpspeeds.length === 0 ? 0 : Math.max(...tmpspeeds));
+      const min = tmpspeeds.length === 0 ? 0 : Math.min(...tmpspeeds);
+      const max = tmpspeeds.length === 0 ? 0 : Math.max(...tmpspeeds);
+      setMinspeed(min);
+      setMaxspeed(max);
+      qrySpeeds.length == 2 && (qrySpeeds[1] < min || qrySpeeds[1] > max) && setQrySpeeds(['']);
     }
     else if (voltage48) {
       var tmpspeeds = getSpeedsForVoltage(array, 48);
-      setMinspeed(tmpspeeds.length === 0 ? 0 : Math.min(...tmpspeeds));
-      setMaxspeed(tmpspeeds.length === 0 ? 0 : Math.max(...tmpspeeds));
+      const min = tmpspeeds.length === 0 ? 0 : Math.min(...tmpspeeds);
+      const max = tmpspeeds.length === 0 ? 0 : Math.max(...tmpspeeds);
+      setMinspeed(min);
+      setMaxspeed(max);
+      qrySpeeds.length == 2 && (qrySpeeds[1] < min || qrySpeeds[1] > max) && setQrySpeeds(['']);
     }
     else {
       var tmpspeeds = findUniqueValuesForProperty(array, 'speed');
-      setMinspeed(tmpspeeds.length === 0 ? 0 : Math.min(...tmpspeeds));
-      setMaxspeed(tmpspeeds.length === 0 ? 0 : Math.max(...tmpspeeds));
+      const min = tmpspeeds.length === 0 ? 0 : Math.min(...tmpspeeds);
+      const max = tmpspeeds.length === 0 ? 0 : Math.max(...tmpspeeds);
+      setMinspeed(min);
+      setMaxspeed(max);
+      qrySpeeds.length == 2 && (qrySpeeds[1] < min || qrySpeeds[1] > max) && setQrySpeeds(['']);
     }
   };
 
@@ -264,8 +328,10 @@ const Choose = (props) => {
         console.error("Fetching JSON data failed", error);
       }
     };
-    console.log("================= load ====================");
+    // console.log("================= load ====================");
     loadData();
+
+    console.log("params :", params.type);
 
     const queryParams = new URLSearchParams(location.search);
     setControled(queryParams.get('controled') === '1');
@@ -278,6 +344,7 @@ const Choose = (props) => {
     setVoltage36(queryParams.get('voltage36') === '1');
     setVoltage48(queryParams.get('voltage48') === '1');
     setCommrs485(queryParams.get('commrs485') === '1');
+    setCommethercat(queryParams.get('commethercat') === '1');
 
     var tsize = [''];
     var ttq = [''];
@@ -295,7 +362,7 @@ const Choose = (props) => {
         ttq.push(k.substring(2));
       }
     });
-    console.log(tspd);
+    // console.log(tspd);
     setQrySizes(tsize);
     setQrySpeeds(tspd);
     setQryTorques(ttq);
@@ -303,7 +370,8 @@ const Choose = (props) => {
 
   useEffect(() => {
     if (data != null) {
-      var tmp = data.filter( it => !controled || it.controled == controled);
+      var tmp = data.filter(it => it['type-use'].indexOf(params.type) >= 0);
+      tmp = tmp.filter( it => !controled || it.controled == controled);
       tmp = tmp.filter(it => !brakable || it.brakable == brakable);
       tmp = tmp.filter(it => !geared || it.geared == geared);
       tmp = tmp.filter(it => !hollow || it.hollow == hollow);
@@ -316,6 +384,7 @@ const Choose = (props) => {
 
       tmp = tmp.filter(it => qrySizes.length == 1 || qrySizes.some(s => s === it.size));
       tmp = tmp.filter(it => !commrs485 || it.communication.indexOf('rs485') >= 0);
+      tmp = tmp.filter(it => !commethercat || it.communication.indexOf('ethercat') >= 0);
       tmp = tmp.filter(it => qryTorques.length == 1 || qryTorques[1] <= it.torque);
       tmp = tmp.filter(it => qrySpeeds.length == 1 || it.specs.some(spec => spec.speed >= parseInt(qrySpeeds[1])));
 
@@ -332,6 +401,7 @@ const Choose = (props) => {
       voltage36 && newurl.push("voltage36=1");
       voltage48 && newurl.push("voltage48=1");
       commrs485 && newurl.push("commrs485=1");
+      commethercat && newurl.push("commethercat=1");
 
       if (qrySizes.length > 1) {
         const t = qrySizes.filter(it => it !== '');
@@ -359,7 +429,7 @@ const Choose = (props) => {
       else
         window.history.pushState("", "재품선정", `/choose/${params.type}`)
     }
-  }, [data, controled, brakable, geared, hollow, voltage12, voltage24, voltage36, voltage48, encorder, commrs485, qrySizes, qrySpeeds, qryTorques])
+  }, [data, controled, brakable, geared, hollow, voltage12, voltage24, voltage36, voltage48, encorder, commrs485, qrySizes, qrySpeeds, qryTorques, commethercat])
 
   const opennewwindow = (url) => {
     window.open(url, '_blank', 'noopener,noreferrer');
@@ -378,6 +448,23 @@ const Choose = (props) => {
               누리로봇&nbsp;&nbsp;Nurirobot
             </Typography>
           </Toolbar>
+          <IconButton
+              color="inherit"
+              aria-label="open drawer"
+              edge="end"
+              onClick={handleDrawerToggle}
+              sx={{ 
+                display: { sm: 'none' },
+                position: 'absolute',
+                zIndex: 999,
+                top: 8,
+                right: 5,
+                margin: "0px 7px"
+                
+              }}
+            >
+              <MenuIcon />
+            </IconButton>          
         </AppBar>
       </ElevationScroll>
       <Toolbar />
@@ -392,24 +479,7 @@ const Choose = (props) => {
             세부정보입력
           </Typography>
         </Breadcrumbs>
-        <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            edge="end"
-            onClick={handleDrawerToggle}
-            sx={{ 
-              display: { sm: 'none' },
-              position: 'absolute',
-              zIndex: 999,
-              top: 70,
-              right: 27,
-              margin: "0px 7px"
-              
-            }}
-          >
-            <MenuIcon />
-        </IconButton>
-
+        
         <Main open={!isMobile} >
         {/* <DrawerHeader /> */}
         <ImageList cols={isMd? 2: 3} >
@@ -419,8 +489,13 @@ const Choose = (props) => {
           {dispdata.map((item, index) => (
             <ImageListItem key={index}>
               <img
-                // srcSet={`${item.picture[0]}`}
-                // src={`${item.picture[0]}`}
+                onClick={() => {
+                  handleClickOpen(
+                    item['step-url'] ? item['step-url'] : '', 
+                    item['dxf-url'] ? item['dxf-url'] : '',
+                    item['nurirobot-url'] ? item['nurirobot-url']: '',
+                    item.name ? item.name : '');
+                }}
                 srcSet={item.picture[0]}
                 src={item.picture[0]}
                 alt={item.title}
@@ -430,6 +505,7 @@ const Choose = (props) => {
                 title={item.name}
                 subtitle={item['nurirobot-url']}
                 actionIcon={
+                  item['nurirobot-url']?
                   <Tooltip title="구매링크">
                     <IconButton
                       sx={{ color: 'rgba(255, 255, 255, 0.54)', mr: '5px' }}
@@ -439,6 +515,7 @@ const Choose = (props) => {
                       <ShoppingCartIcon />
                     </IconButton>
                   </Tooltip>
+                  : <></>
                 }
               />
             </ImageListItem>
@@ -695,9 +772,104 @@ const Choose = (props) => {
                 disabled={disableRs485}
                 text="RS485"/>
             </Item>
+            <Item>
+              <CheckboxButton
+                onChange={() => setCommethercat(!commethercat) || (isMobile && setMobileOpen(false)) }
+                checked={commethercat}
+                disabled={disableEthercat}
+                text="EtherCAT"/>
+            </Item>            
           </Stack>
         </Box>
       </Drawer>
+      <Dialog
+        open={open}
+        onClose={handleClose}
+        TransitionComponent={Transition}
+        maxWidth={maxWidth}
+        fullWidth={true}
+        sx={{
+          '& .MuiPaper-root': { // Dialog의 Paper 컴포넌트를 대상으로 합니다.
+            height: '80vh', // 최대 높이를 화면의 80%로 설정합니다.
+            background: '#313639'
+          }
+        }}
+      >
+        <DialogTitle sx={{color: '#fff'}}>
+          <Toolbar>
+            <IconButton
+              edge="start"
+              color="inherit"
+              onClick={handleClose}
+              aria-label="close"
+            >
+              <CloseIcon />
+            </IconButton>
+            <Typography sx={{ ml: 2, flex: 1 }} variant="h6" component="div">
+              미리보기
+            </Typography>
+            <Typography sx={{ ml: 2, flex: 1 }} variant="h6" component="div">
+              {dialogName}
+            </Typography>
+            {dialogbuyurl ? 
+            <Tooltip title="구매링크">
+              <IconButton
+                sx={{ color: 'rgba(255, 255, 255, 0.54)', mr: '5px' }}
+                aria-label={`info about ${dialogName}`}
+                onClick={() => opennewwindow(`${dialogbuyurl}`)}>
+                <ShoppingCartIcon />
+              </IconButton>
+            </Tooltip>
+            :<></>
+            }
+          </Toolbar>
+        </DialogTitle>
+        <DialogContent>
+          {!isMd ?
+          <SplitPane 
+          allowResize={allowResize}
+          split="vertical" 
+          primary='first'>
+              <Box sx={{height: '100%', mr: '10px'}} minSize='200'>
+                {/* <Box fullWidth height={'100%'} sx={{background: red[100]}}/> */}
+                {stepUrl ?
+                <ViewerWithUI url={stepUrl} fullWidth height={'100%'} loaded={onLoaded} />
+                :<Typography variant="h6" component="div" sx={{color: '#fff'}}>
+                등록된 파일 없음
+              </Typography>
+                }
+              </Box>
+              <Box sx={{height: '100%', ml: '10px'}} minSize='200' >
+                {dxfUrl ? 
+                <ViewerDxf url={dxfUrl} />
+                : <Typography variant="h6" component="div" sx={{color: '#fff'}}>
+                등록된 파일 없음
+              </Typography>
+                }
+              </Box>
+          </SplitPane>
+          : 
+          <Box sx={{overflow: 'auto'}}>
+            <Box fullWidth height={400}>
+              {stepUrl ?
+                  <MobileViewerWithUI url={stepUrl} loaded={onLoaded} />
+                  :<Typography variant="h6" component="div" sx={{color: '#fff'}}>
+                  등록된 파일 없음
+                </Typography>
+                  }
+            </Box>
+            <Box fullWidth height={400}>
+              {dxfUrl ? 
+                  <MobileViewerDxf url={dxfUrl} fullWidth height={500}/>
+                  : <Typography variant="h6" component="div" sx={{color: '#fff'}}>
+                  등록된 파일 없음
+                </Typography>
+                  }
+            </Box>              
+          </Box>
+              }
+        </DialogContent>
+      </Dialog>
       </Container>
     </>
   );
