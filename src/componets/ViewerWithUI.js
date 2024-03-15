@@ -89,7 +89,7 @@ const ViewerWithUI = ({ url, loaded, stlurl }) => {
                         45.0
                     ),
                     backgroundColor: new OV.RGBAColor(49, 54, 57, 255),
-                    defaultColor: new OV.RGBColor(0, 100, 100),
+                    defaultColor: new OV.RGBColor(100, 100, 100),
                     edgeSettings: ttt,
                     environmentMap: [
                         "../website/assets/envmaps/grayclouds/posx.jpg",

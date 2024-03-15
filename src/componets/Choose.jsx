@@ -313,7 +313,9 @@ const Choose = (props) => {
         setTorques(tmptorques);
         setDisplaytorques(tmptorques);
         setSlidTorque(tmptorques[0]);
-        const tmpspeeds = findUniqueValuesForProperty(json, 'speed');
+        var tmpspeeds = findUniqueValuesForProperty(json, 'speed');
+        tmpspeeds = tmpspeeds.filter(v => v !== 0);
+        console.log(tmpspeeds);
         setSpeeds(tmpspeeds);
         setDisplayspeeds(tmpspeeds);
         setSlidspeed(tmpspeeds[0]);
@@ -505,6 +507,7 @@ const Choose = (props) => {
                 loading="lazy"
               />
               <ImageListItemBar
+                sx={{height: '60px'}}
                 title={item.name}
                 subtitle={item['nurirobot-url']}
                 actionIcon={
