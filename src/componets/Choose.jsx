@@ -79,6 +79,8 @@ const Choose = (props) => {
   const [slidSpeed, setSlidspeed] = useState(0);
   const [sizes, setSizes] = useState([]);
 
+  const [sea, setSea] = useState(false);
+
   const [qrySizes, setQrySizes] = useState(['']);
   const [qryTorques, setQryTorques] = useState(['']);
   const [qrySpeeds, setQrySpeeds] = useState(['']);
@@ -90,6 +92,7 @@ const Choose = (props) => {
   const [disableencorder, setdisableEncorder] = useState(false);
   const [disablegeared, setdisableGeared] = useState(false);
   const [disablebrakable, setdisableBrakable] = useState(false);
+  const [disableSEA, setdisableSEA] = useState(false);
   const [minSpeed, setMinspeed] = useState(0);
   const [maxSpeed, setMaxspeed] = useState(0);
   const [stepUrl, setStepUrl] = useState('');
@@ -256,6 +259,11 @@ const Choose = (props) => {
     setdisableBrakable(isbrakable);
     isbrakable && setBrakable(false);
 
+    const tmpsea = findUniqueValuesForProperty(array, 'sea');
+    const issea = !tmpsea.some(itm => itm === true);
+    setdisableSEA(issea);
+    issea && setSea(false);
+
     if (voltage12) {
       var tmpspeeds = getSpeedsForVoltage(array, 12);
       const min = tmpspeeds.length === 0 ? 0 : Math.min(...tmpspeeds);
@@ -307,7 +315,7 @@ const Choose = (props) => {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
         const json = await response.json();
-        console.log(json);
+        // console.log(json);
 
         const tmptorques = findUniqueValuesForProperty(json, 'torque');
         setTorques(tmptorques);
@@ -315,18 +323,16 @@ const Choose = (props) => {
         setSlidTorque(tmptorques[0]);
         var tmpspeeds = findUniqueValuesForProperty(json, 'speed');
         tmpspeeds = tmpspeeds.filter(v => v !== 0);
-        console.log(tmpspeeds);
+        // console.log(tmpspeeds);
         setSpeeds(tmpspeeds);
         setDisplayspeeds(tmpspeeds);
         setSlidspeed(tmpspeeds[0]);
         const tmpsizes = findUniqueValuesForProperty(json, 'size');
         setSizes(tmpsizes);
-        setDispData(json);
+        setDispData([]);
         setData(json);
 
-
-
-        checkFilterdisable(json);
+        // checkFilterdisable(json);
         // console.log(tmpcontroled, tmpcontroled.length);
       } catch (error) {
         console.error("Fetching JSON data failed", error);
@@ -349,6 +355,7 @@ const Choose = (props) => {
     setVoltage48(queryParams.get('voltage48') === '1');
     setCommrs485(queryParams.get('commrs485') === '1');
     setCommethercat(queryParams.get('commethercat') === '1');
+    setSea(queryParams.get('sea') === '1');
 
     var tsize = [''];
     var ttq = [''];
@@ -391,6 +398,7 @@ const Choose = (props) => {
       tmp = tmp.filter(it => !commethercat || it.communication.indexOf('ethercat') >= 0);
       tmp = tmp.filter(it => qryTorques.length == 1 || qryTorques[1] <= it.torque);
       tmp = tmp.filter(it => qrySpeeds.length == 1 || it.specs.some(spec => spec.speed >= parseInt(qrySpeeds[1])));
+      tmp = tmp.filter(it => !sea || it.sea == sea);
 
       checkFilterdisable(tmp);
       setDispData(tmp)
@@ -406,6 +414,7 @@ const Choose = (props) => {
       voltage48 && newurl.push("voltage48=1");
       commrs485 && newurl.push("commrs485=1");
       commethercat && newurl.push("commethercat=1");
+      sea && newurl.push("sea=1");
 
       if (qrySizes.length > 1) {
         const t = qrySizes.filter(it => it !== '');
@@ -433,7 +442,7 @@ const Choose = (props) => {
       else
         window.history.pushState("", "재품선정", `/choose/${params.type}`)
     }
-  }, [data, controled, brakable, geared, hollow, voltage12, voltage24, voltage36, voltage48, encorder, commrs485, qrySizes, qrySpeeds, qryTorques, commethercat])
+  }, [data, controled, brakable, geared, hollow, voltage12, voltage24, voltage36, voltage48, encorder, commrs485, qrySizes, qrySpeeds, qryTorques, commethercat, sea])
 
   const opennewwindow = (url) => {
     window.open(url, '_blank', 'noopener,noreferrer');
@@ -767,6 +776,17 @@ const Choose = (props) => {
                 disabled={disablehollow}
                 text="포함"/>
             </Item> 
+            <Typography variant="body1" sx={{ml: 2, mt: 2}}>
+              직렬탄성 여부
+              {/* (is series elastic actuator) */}
+            </Typography>
+            <Item>
+              <CheckboxButton
+                onChange={() => setSea(!sea) || (isMobile && setMobileOpen(false)) }
+                checked={sea}
+                disabled={disableSEA}
+                text="포함"/>
+            </Item>             
             <Typography variant="body1" sx={{ml: 2, mt: 2}}>
               통신방식
               {/* (communication) */}

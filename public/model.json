@@ -12669,12 +12669,12 @@
     ],
     "poles": 0,
     "current_a": 34,
-    "torque": 100,
+    "torque": 70,
     "specs": [
       {
         "voltage": 48,
         "speed": 100,
-        "stalltorque": 300
+        "stalltorque": 210
       }
     ]
   },
@@ -12709,12 +12709,12 @@
     ],
     "poles": 0,
     "current_a": 51,
-    "torque": 150,
+    "torque": 100,
     "specs": [
       {
         "voltage": 48,
         "speed": 100,
-        "stalltorque": 450
+        "stalltorque": 300
       }
     ]
   },
@@ -12954,6 +12954,616 @@
         "voltage": 24,
         "speed": 0,
         "stalltorque": 0
+      }
+    ]
+  },
+  {
+    "name": "RJ90-S",
+    "nurirobot-url": "",
+    "picture": [
+      "../assets/render/RJ90-0.png"
+    ],
+    "step-url": "../assets/models/Unnamed-RJ90.step",
+    "stl-url":"../assets/stls/unnamed-rj90.stl",
+    "dxf-url": "",
+    "type": "rotary",
+    "type-use": [
+      "joint",
+      "wheel"
+    ],
+    "sea": true,
+    "controled": false,
+    "weight_g": 0,
+    "size": "90",
+    "brakable": false,
+    "geared": true,
+    "geartype": "cycloid",
+    "backlash": "≤3(arc min)",
+    "encorder": false,
+    "hollow": false,
+    "ratio": 19,
+    "pulserevolution": null,
+    "countsrevolution": null,
+    "communication": [
+      "none"
+    ],
+    "poles": 0,
+    "current_a": 3,
+    "torque": 5,
+    "specs": [
+      {
+        "voltage": 48,
+        "speed": 200,
+        "stalltorque": 15
+      }
+    ]
+  },
+  {
+    "name": "RJ110-S",
+    "nurirobot-url": "",
+    "picture": [
+      "../assets/render/RJ110-0.png"
+    ],
+    "step-url": "../assets/models/Unnamed-RJ110.step",
+    "stl-url":"../assets/stls/unnamed-rj110.stl",
+    "dxf-url": "",
+    "type": "rotary",
+    "type-use": [
+      "joint",
+      "wheel"
+    ],
+    "sea": true,
+    "controled": false,
+    "weight_g": 0,
+    "size": "110",
+    "brakable": false,
+    "geared": true,
+    "geartype": "cycloid",
+    "backlash": "≤3(arc min)",
+    "encorder": false,
+    "hollow": false,
+    "ratio": 19,
+    "pulserevolution": null,
+    "countsrevolution": null,
+    "communication": [
+      "none"
+    ],
+    "poles": 0,
+    "current_a": 7,
+    "torque": 20,
+    "specs": [
+      {
+        "voltage": 48,
+        "speed": 100,
+        "stalltorque": 60
+      }
+    ]
+  },
+  {
+    "name": "RJ130-S",
+    "nurirobot-url": "",
+    "picture": [
+      "../assets/render/RJ130-0.png"
+    ],
+    "step-url": "../assets/models/Unnamed-RJ130.step",
+    "stl-url":"../assets/stls/unnamed-rj130.stl",
+    "dxf-url": "",
+    "type": "rotary",
+    "type-use": [
+      "joint",
+      "wheel"
+    ],
+    "sea": true,
+    "controled": false,
+    "weight_g": 0,
+    "size": "130",
+    "brakable": false,
+    "geared": true,
+    "geartype": "cycloid",
+    "backlash": "≤3(arc min)",
+    "encorder": false,
+    "hollow": false,
+    "ratio": 19,
+    "pulserevolution": null,
+    "countsrevolution": null,
+    "communication": [
+      "none"
+    ],
+    "poles": 0,
+    "current_a": 14,
+    "torque": 40,
+    "specs": [
+      {
+        "voltage": 48,
+        "speed": 100,
+        "stalltorque": 120
+      }
+    ]
+  },
+  {
+    "name": "RJ150-S",
+    "nurirobot-url": "",
+    "picture": [
+      "../assets/render/RJ150-0.png"
+    ],
+    "step-url": "../assets/models/Unnamed-RJ150.step",
+    "stl-url":"../assets/stls/unnamed-rj150.stl",
+    "dxf-url": "",
+    "type": "rotary",
+    "type-use": [
+      "joint",
+      "wheel"
+    ],
+    "sea": true,
+    "controled": false,
+    "weight_g": 0,
+    "size": "150",
+    "brakable": false,
+    "geared": true,
+    "geartype": "cycloid",
+    "backlash": "≤3(arc min)",
+    "encorder": false,
+    "hollow": false,
+    "ratio": 19,
+    "pulserevolution": null,
+    "countsrevolution": null,
+    "communication": [
+      "none"
+    ],
+    "poles": 0,
+    "current_a": 34,
+    "torque": 70,
+    "specs": [
+      {
+        "voltage": 48,
+        "speed": 100,
+        "stalltorque": 210
+      }
+    ]
+  },
+  {
+    "name": "RJ170-S",
+    "nurirobot-url": "",
+    "picture": [
+      "../assets/render/RJ170-0.png"
+    ],
+    "step-url": "../assets/models/Unnamed-RJ170.step",
+    "stl-url":"../assets/stls/unnamed-rj170.stl",
+    "dxf-url": "",
+    "type": "rotary",
+    "type-use": [
+      "joint",
+      "wheel"
+    ],
+    "sea": true,
+    "controled": false,
+    "weight_g": 0,
+    "size": "170",
+    "brakable": false,
+    "geared": true,
+    "geartype": "cycloid",
+    "backlash": "≤3(arc min)",
+    "encorder": false,
+    "hollow": false,
+    "ratio": 19,
+    "pulserevolution": null,
+    "countsrevolution": null,
+    "communication": [
+      "none"
+    ],
+    "poles": 0,
+    "current_a": 51,
+    "torque": 100,
+    "specs": [
+      {
+        "voltage": 48,
+        "speed": 100,
+        "stalltorque": 300
+      }
+    ]
+  },
+  {
+    "name": "RH90",
+    "nurirobot-url": "",
+    "picture": [
+      "../assets/render/RH90.png"
+    ],
+    "step-url": "../assets/models/U_RH90.step",
+    "stl-url":"../assets/stls/rh90.stl",
+    "dxf-url": "",
+    "type": "rotary",
+    "type-use": [
+      "joint",
+      "wheel"
+    ],
+    "sea": true,
+    "controled": false,
+    "weight_g": 0,
+    "size": "90",
+    "brakable": false,
+    "geared": true,
+    "geartype": "cycloid",
+    "backlash": "≤3(arc min)",
+    "encorder": false,
+    "hollow": false,
+    "ratio": 19,
+    "pulserevolution": null,
+    "countsrevolution": null,
+    "communication": [
+      "none"
+    ],
+    "poles": 0,
+    "current_a": 3,
+    "torque": 10,
+    "specs": [
+      {
+        "voltage": 48,
+        "speed": 200,
+        "stalltorque": 30
+      }
+    ]
+  },
+  {
+    "name": "RH110",
+    "nurirobot-url": "",
+    "picture": [
+      "../assets/render/RH110.png"
+    ],
+    "step-url": "../assets/models/U_RH110.step",
+    "stl-url":"../assets/stls/rh110.stl",
+    "dxf-url": "",
+    "type": "rotary",
+    "type-use": [
+      "joint",
+      "wheel"
+    ],
+    "sea": true,
+    "controled": false,
+    "weight_g": 0,
+    "size": "110",
+    "brakable": false,
+    "geared": true,
+    "geartype": "cycloid",
+    "backlash": "≤3(arc min)",
+    "encorder": false,
+    "hollow": false,
+    "ratio": 19,
+    "pulserevolution": null,
+    "countsrevolution": null,
+    "communication": [
+      "none"
+    ],
+    "poles": 0,
+    "current_a": 7,
+    "torque": 40,
+    "specs": [
+      {
+        "voltage": 48,
+        "speed": 100,
+        "stalltorque": 120
+      }
+    ]
+  },
+  {
+    "name": "RH130",
+    "nurirobot-url": "",
+    "picture": [
+      "../assets/render/RH130.png"
+    ],
+    "step-url": "../assets/models/U_RH130.step",
+    "stl-url":"../assets/stls/rh130.stl",
+    "dxf-url": "",
+    "type": "rotary",
+    "type-use": [
+      "joint",
+      "wheel"
+    ],
+    "sea": true,
+    "controled": false,
+    "weight_g": 0,
+    "size": "130",
+    "brakable": false,
+    "geared": true,
+    "geartype": "cycloid",
+    "backlash": "≤3(arc min)",
+    "encorder": false,
+    "hollow": false,
+    "ratio": 19,
+    "pulserevolution": null,
+    "countsrevolution": null,
+    "communication": [
+      "none"
+    ],
+    "poles": 0,
+    "current_a": 14,
+    "torque": 80,
+    "specs": [
+      {
+        "voltage": 48,
+        "speed": 100,
+        "stalltorque": 240
+      }
+    ]
+  },
+  {
+    "name": "RH150",
+    "nurirobot-url": "",
+    "picture": [
+      "../assets/render/RH150.png"
+    ],
+    "step-url": "../assets/models/U_RH150.step",
+    "stl-url":"../assets/stls/rh150.stl",
+    "dxf-url": "",
+    "type": "rotary",
+    "type-use": [
+      "joint",
+      "wheel"
+    ],
+    "sea": true,
+    "controled": false,
+    "weight_g": 0,
+    "size": "150",
+    "brakable": false,
+    "geared": true,
+    "geartype": "cycloid",
+    "backlash": "≤3(arc min)",
+    "encorder": false,
+    "hollow": false,
+    "ratio": 19,
+    "pulserevolution": null,
+    "countsrevolution": null,
+    "communication": [
+      "none"
+    ],
+    "poles": 0,
+    "current_a": 34,
+    "torque": 140,
+    "specs": [
+      {
+        "voltage": 48,
+        "speed": 100,
+        "stalltorque": 420
+      }
+    ]
+  },
+  {
+    "name": "RH170",
+    "nurirobot-url": "",
+    "picture": [
+      "../assets/render/RH170.png"
+    ],
+    "step-url": "../assets/models/U_RH170.step",
+    "stl-url":"../assets/stls/rh170.stl",
+    "dxf-url": "",
+    "type": "rotary",
+    "type-use": [
+      "joint",
+      "wheel"
+    ],
+    "sea": true,
+    "controled": false,
+    "weight_g": 0,
+    "size": "170",
+    "brakable": false,
+    "geared": true,
+    "geartype": "cycloid",
+    "backlash": "≤3(arc min)",
+    "encorder": false,
+    "hollow": false,
+    "ratio": 19,
+    "pulserevolution": null,
+    "countsrevolution": null,
+    "communication": [
+      "none"
+    ],
+    "poles": 0,
+    "current_a": 51,
+    "torque": 200,
+    "specs": [
+      {
+        "voltage": 48,
+        "speed": 100,
+        "stalltorque": 600
+      }
+    ]
+  },
+  {
+    "name": "RV90",
+    "nurirobot-url": "",
+    "picture": [
+      "../assets/render/RV90.png"
+    ],
+    "step-url": "../assets/models/U_RVS90.step",
+    "stl-url":"../assets/stls/u-rv90.stl",
+    "dxf-url": "",
+    "type": "rotary",
+    "type-use": [
+      "joint"
+    ],
+    "sea": true,
+    "controled": false,
+    "weight_g": 0,
+    "size": "90",
+    "brakable": false,
+    "geared": true,
+    "geartype": "cycloid",
+    "backlash": "≤3(arc min)",
+    "encorder": false,
+    "hollow": false,
+    "ratio": 19,
+    "pulserevolution": null,
+    "countsrevolution": null,
+    "communication": [
+      "none"
+    ],
+    "poles": 0,
+    "current_a": 3,
+    "torque": 9,
+    "specs": [
+      {
+        "voltage": 48,
+        "speed": 200,
+        "stalltorque": 27
+      }
+    ]
+  },
+  {
+    "name": "RV110",
+    "nurirobot-url": "",
+    "picture": [
+      "../assets/render/RV110.png"
+    ],
+    "step-url": "../assets/models/U_RV110.step",
+    "stl-url":"../assets/stls/u-rv110.stl",
+    "dxf-url": "",
+    "type": "rotary",
+    "type-use": [
+      "joint"
+    ],
+    "sea": true,
+    "controled": false,
+    "weight_g": 0,
+    "size": "110",
+    "brakable": false,
+    "geared": true,
+    "geartype": "cycloid",
+    "backlash": "≤3(arc min)",
+    "encorder": false,
+    "hollow": false,
+    "ratio": 19,
+    "pulserevolution": null,
+    "countsrevolution": null,
+    "communication": [
+      "none"
+    ],
+    "poles": 0,
+    "current_a": 7,
+    "torque": 36,
+    "specs": [
+      {
+        "voltage": 48,
+        "speed": 100,
+        "stalltorque": 108
+      }
+    ]
+  },
+  {
+    "name": "RV130",
+    "nurirobot-url": "",
+    "picture": [
+      "../assets/render/RV130.png"
+    ],
+    "step-url": "../assets/models/U_RV130.step",
+    "stl-url":"../assets/stls/u-rv130.stl",
+    "dxf-url": "",
+    "type": "rotary",
+    "type-use": [
+      "joint"
+    ],
+    "sea": true,
+    "controled": false,
+    "weight_g": 0,
+    "size": "130",
+    "brakable": false,
+    "geared": true,
+    "geartype": "cycloid",
+    "backlash": "≤3(arc min)",
+    "encorder": false,
+    "hollow": false,
+    "ratio": 19,
+    "pulserevolution": null,
+    "countsrevolution": null,
+    "communication": [
+      "none"
+    ],
+    "poles": 0,
+    "current_a": 14,
+    "torque": 72,
+    "specs": [
+      {
+        "voltage": 48,
+        "speed": 100,
+        "stalltorque": 216
+      }
+    ]
+  },
+  {
+    "name": "RV150",
+    "nurirobot-url": "",
+    "picture": [
+      "../assets/render/RV150.png"
+    ],
+    "step-url": "../assets/models/U_RV150.step",
+    "stl-url":"../assets/stls/u-rv150.stl",
+    "dxf-url": "",
+    "type": "rotary",
+    "type-use": [
+      "joint"
+    ],
+    "sea": true,
+    "controled": false,
+    "weight_g": 0,
+    "size": "150",
+    "brakable": false,
+    "geared": true,
+    "geartype": "cycloid",
+    "backlash": "≤3(arc min)",
+    "encorder": false,
+    "hollow": false,
+    "ratio": 19,
+    "pulserevolution": null,
+    "countsrevolution": null,
+    "communication": [
+      "none"
+    ],
+    "poles": 0,
+    "current_a": 34,
+    "torque": 126,
+    "specs": [
+      {
+        "voltage": 48,
+        "speed": 100,
+        "stalltorque": 378
+      }
+    ]
+  },
+  {
+    "name": "RV170",
+    "nurirobot-url": "",
+    "picture": [
+      "../assets/render/RV170.png"
+    ],
+    "step-url": "../assets/models/U_RV170.step",
+    "stl-url":"../assets/stls/u-rv170.stl",
+    "dxf-url": "",
+    "type": "rotary",
+    "type-use": [
+      "joint"
+    ],
+    "sea": true,
+    "controled": false,
+    "weight_g": 0,
+    "size": "170",
+    "brakable": false,
+    "geared": true,
+    "geartype": "cycloid",
+    "backlash": "≤3(arc min)",
+    "encorder": false,
+    "hollow": false,
+    "ratio": 19,
+    "pulserevolution": null,
+    "countsrevolution": null,
+    "communication": [
+      "none"
+    ],
+    "poles": 0,
+    "current_a": 51,
+    "torque": 180,
+    "specs": [
+      {
+        "voltage": 48,
+        "speed": 100,
+        "stalltorque": 540
       }
     ]
   }
