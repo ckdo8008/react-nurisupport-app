@@ -22,6 +22,7 @@ function App() {
             <Route path='/choosetest' element={<Index />} />
             <Route path='/choose' element={<TypeChoose />} />
             <Route path='/choose/:type' element={<Choose />} />
+            <Route path='*' element={<Test />} />
           </Routes>
         </Router>
       </ThemeProvider>
