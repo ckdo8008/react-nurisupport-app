@@ -12526,7 +12526,7 @@
     ],
     "step-url": "../assets/models/Unnamed-RJ90.step",
     "stl-url":"../assets/stls/unnamed-rj90.stl",
-    "dxf-url": "",
+    "dxf-url": "../assets/drawings/NURIROBOT_RJ90_2D.dxf",
     "type": "rotary",
     "type-use": [
       "joint",
@@ -12564,9 +12564,9 @@
     "picture": [
       "../assets/render/RJ110-500x500.png"
     ],
-    "step-url": "../assets/models/Unnamed-RJ110.step",
-    "stl-url":"../assets/stls/unnamed-rj110.stl",
-    "dxf-url": "",
+    "step-url": "../assets/models/U_RJ110_3D.STEP",
+    "stl-url":"../assets/stls/u_rj110_3d.stl",
+    "dxf-url": "../assets/drawings/NURIROBOT_RJ110_2D.dxf",
     "type": "rotary",
     "type-use": [
       "joint",
@@ -12965,7 +12965,7 @@
     ],
     "step-url": "../assets/models/Unnamed-RJ90.step",
     "stl-url":"../assets/stls/unnamed-rj90.stl",
-    "dxf-url": "",
+    "dxf-url": "../assets/drawings/NURIROBOT_RJ90_2D.dxf",
     "type": "rotary",
     "type-use": [
       "joint",
@@ -13004,9 +13004,9 @@
     "picture": [
       "../assets/render/RJ110-0.png"
     ],
-    "step-url": "../assets/models/Unnamed-RJ110.step",
-    "stl-url":"../assets/stls/unnamed-rj110.stl",
-    "dxf-url": "",
+    "step-url": "../assets/models/U_RJ110_3D.STEP",
+    "stl-url":"../assets/stls/u_rj110_3d.stl",
+    "dxf-url": "../assets/drawings/NURIROBOT_RJ110_2D.dxf",
     "type": "rotary",
     "type-use": [
       "joint",
@@ -13211,7 +13211,7 @@
     ],
     "step-url": "../assets/models/U_RH110.step",
     "stl-url":"../assets/stls/rh110.stl",
-    "dxf-url": "",
+    "dxf-url": "../assets/drawings/NURIROBOT_RH110_2D.dxf",
     "type": "rotary",
     "type-use": [
       "joint",
@@ -13415,7 +13415,7 @@
     ],
     "step-url": "../assets/models/U_RV110.step",
     "stl-url":"../assets/stls/u-rv110.stl",
-    "dxf-url": "",
+    "dxf-url": "../assets/drawings/RV110_2D.dxf",
     "type": "rotary",
     "type-use": [
       "joint"
